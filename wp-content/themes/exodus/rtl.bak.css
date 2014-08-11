@@ -1,0 +1,1424 @@
+/*
+Theme Name: Exodus
+Theme URI: http://churchthemes.com/themes/exodus
+Author: churchthemes.com
+Author URI: http://churchthemes.com
+Description: A flat and wide WordPress theme for churches.
+Copyright: (c) 2014 churchthemes.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, gray, dark, one-column, two-columns, right-sidebar, responsive-layout, custom-colors, custom-menu, editor-style, featured-image-header, featured-images, threaded-comments, translation-ready
+Text Domain: exodus
+Version: 1.1.1
+*/
+/**********************************************
+ * NOTES
+ **********************************************/
+/*
+
+STYLE CUSTOMIZATION
+
+If you want to edit styles, it is best to use a child theme.
+Theme updates replace original stylesheets, so keeping your customizations separate makes updates easier.
+See this guide for more information: http://churchthemes.com/guides/developer/child-theming/
+
+COLOR SCHEMES
+
+See the light and dark stylesheets in the 'colors' directory.
+You can switch between these color schemes in Appearance > Customize.
+There you can also specify colors, background, fonts, etc.
+
+RESPONSIVE STYLES
+
+See css/responsive.css for responsive styling and media queries.
+
+PREFIXES
+
+To prevent conflicts with plugins, everything is prefixed with exodus- (this theme),
+ctcom- (all churchthemes.com themes) or ctfw- (framework). Those with wp- or no prefix are from WordPress.
+Other prefixes are from third party code.
+
+*/
+/**********************************************
+ * TABLE OF CONTENTS
+ **********************************************/
+/*
+
+1.	BASE STYLES
+	- Reset
+	- Text
+	- Blocks
+	- Images
+	- Forms
+2.	CUSTOM STYLES
+	- Rounded Corners
+	- Images
+	- Icons
+	- Buttons
+	- Navigation
+	- Author Box
+	- Search Form
+	- MediaElement.js
+	- Google Maps
+	- Visibility
+	- Clearfix
+3.	LAYOUT
+	- Shared Styles
+	- Container
+	- Header
+	- Top Bar
+	- Logo Bar
+	- Menu Bar
+	- Banner
+	- Breadcrumbs
+	- Content
+	- Sidebar
+	- Footer
+4.	WIDGETS
+	- Shared Styles
+	- WP Tag Cloud
+	- WP Calendar
+	- WP RSS
+	- Highlight
+	- Sermons
+	- Locations
+	- People
+	- Gallery
+	- Giving
+5.	HOMEPAGE
+	- Layout
+	- Slider
+	- Intro
+	- Highlights
+	- Widgets
+6.	ENTRY STYLES
+	- Shared Styles (Full + Short)
+	- Full / Single
+	- Short / Multiple
+7.	SERMONS
+8.	EVENTS
+9.	LOCATIONS
+10.	ATTACHMENTS
+11.	GALLERIES
+12.	COMMENTS
+	- Comment List
+	- Comment Form
+13.	PLUGINS
+	- Contact Form 7
+
+*/
+/**********************************************
+ * 1. BASE STYLES
+ **********************************************/
+/******************* RESET ********************/
+/**
+ * html5doctor.com Reset v1.6.1 (public domain) -
+ * by Richard Clark - http://richclarkdesign.com
+ */
+
+/* Additional Reset */
+
+/******************* TEXT *********************/
+/* Base Font */
+
+/* Links */
+
+/* Headings */
+
+/* Paragraph */
+
+/* Subscript */
+
+/* Superscript */
+
+/****************** BLOCKS ********************/
+
+/* Lists */
+
+ul,
+ol {
+	margin-right: 40px;
+	margin-left: auto;
+}
+
+dl {
+	margin-right: 25px;
+	margin-left: auto;
+}
+
+/* Blockquote */
+
+blockquote {
+	padding-right: 60px;
+	padding-left: 0;
+}
+
+/* Quotation mark before */
+
+	blockquote:before {
+	right: 0px;
+	left: auto;
+}
+
+/* <cite> in blockquote */
+
+/* Emdash before */
+
+/* Quote Tag */
+
+/* Tables */
+
+.exodus-entry-content caption {
+	text-align: right;
+}
+
+.exodus-entry-content th {
+	padding: 0 0 10px 10px;
+	text-align: right;
+}
+
+.exodus-entry-content td {
+	padding: 10px 0 10px 10px;
+}
+
+/* Horizontal Rule */
+
+/****************** IMAGES ********************/
+/* Don't let images exceed their containers */
+/* for placeholder */
+
+/******************* FORMS ********************/
+
+input[type=radio],
+input[type=checkbox] {
+	margin-left: 4px;
+	margin-right: auto;
+}
+
+/* Remove iOS form styling */
+
+/**********************************************
+ * 2. CUSTOM STYLES
+ **********************************************/
+/************** ROUNDED CORNERS ***************/
+/* All Corners */
+
+/* Top */
+
+.exodus-rounded .sf-menu li:first-child,
+.exodus-rounded .sf-menu ul li:first-child:hover > a,
+.exodus-rounded .exodus-sidebar-widget:not(.widget_ctfw-highlight) .exodus-widget-title {
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+/* Bottom */
+
+.exodus-rounded .sf-menu li:last-child,
+.exodus-rounded .sf-menu ul li:last-child:hover > a,
+.exodus-rounded .exodus-slide,
+.exodus-rounded .exodus-slide img,
+.exodus-rounded .gallery-item:hover .gallery-caption {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+/* Only when banner image not running off screen */
+
+	@media only screen and (min-width: 1700px) {
+
+/* Bottom */
+
+.exodus-rounded .sf-menu li:last-child,
+.exodus-rounded .sf-menu ul li:last-child:hover > a,
+.exodus-rounded .exodus-slide,
+.exodus-rounded .exodus-slide img,
+.exodus-rounded .gallery-item:hover .gallery-caption {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+}
+
+/******************** IMAGES *******************/
+/* Caption Image (e.g. Highlight Widget) */
+
+/* Container for Title and Description */
+
+	.exodus-caption-image-caption {
+	right: 6%;
+	padding-left: 12% !important;
+	left: auto;
+	padding-right: 0;
+}
+
+/* Title */
+
+		.exodus-caption-image-title {
+	float: right;
+}
+
+/* Font Adjustments */
+
+/* Line height */
+
+/* Description */
+
+		.exodus-caption-image-description {
+	float: right;
+	clear: right;
+}
+
+/* Image Hover */
+/* typically a linked image */
+/* ditto for slider */
+
+/* Add .exodus-img-backface-visible to <body> when temporarily need this (demo) */
+/* typically a linked image */
+/* ditto for slider */
+
+/* Hover effect - not on mobile (iOS 5 and others can have trouble w/simulation) */
+/* this way hover on caption makes image below fade in/out */
+/* ditto for slider */
+
+/* WordPress Images */
+
+.alignright {
+	float: right;
+	margin: 20px 0 20px 25px;
+}
+
+.alignleft {
+	float: left;
+	margin: 20px 25px 20px 0;
+}
+
+/******************** ICONS ********************/
+/* Font Icons */
+
+/* Size Adjustments (also see for button below) */
+
+/* Icon List */
+
+/* Icon to right of content */
+
+.exodus-content-icon {
+	padding-right: 30px;
+	padding-left: 0;
+}
+
+/* Icons */
+
+	.exodus-content-icon > [class^="el-icon-"],
+	.exodus-content-icon > [class*=" el-icon-"] {
+	right: 0;
+	left: auto;
+}
+
+/* Adjustments */
+
+/***************** BUTTONS ********************/
+/* Button */
+
+/* Submit Button */
+
+/* Button Icon */
+
+.exodus-button-icon {
+	margin-left: 6px;
+	margin-right: auto;
+}
+
+/* Icon Size Adjustments */
+
+.exodus-button-icon.el-icon-chevron-right {
+	margin: 0 -1px 0 6px;
+}
+
+.exodus-button-icon.el-icon-chevron-left {
+	margin: 0 6px 0 -2px;
+}
+
+/* Button List */
+/* <ul> */
+
+/***************** NAVIGATION *****************/
+
+/* Prev/Next Navigation (single posts and comments) */
+
+.exodus-nav-right {
+	float: right;
+}
+
+/* Next / Newer */
+
+.exodus-nav-left {
+	float: left;
+	text-align: left;
+}
+
+/* Post Page Numbers ( << 1 2 3 >> below loops) */
+
+/**************** AUTHOR BOX ******************/
+/* Used below blog posts and author archive */
+
+/* Avatar */
+
+	.exodus-author-avatar {
+	right: 30px;
+	left: auto;
+}
+
+/* Bio */
+
+	.exodus-author-content {
+	margin-right: 130px;
+	margin-left: auto;
+}
+
+/* Heading */
+
+/* More posts link */
+
+		.exodus-author-box-archive {
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+/**************** SEARCH FORM ******************/
+/* Search Form Shared Styles (Top & Widget) */
+
+/* Search Input */
+
+	.exodus-search-field {
+	margin-left: 35px;
+	margin-right: auto;
+}
+
+/* Search Button */
+
+	.exodus-search-button {
+	left: 2px;
+	right: auto;
+}
+
+/*************** MEDIAELEMENT.JS ***************/
+/* Remove yellow border on play button */
+
+/* Make video span 100% of screen (default is 640px) */
+
+/*************** GOOGLE MAPS JS ***************/
+/* Responsive Map (will not show without this, so use here and not in responsive.css (not loaded on "Full Site" toggle) */
+
+/****************** VISIBILITY *****************/
+/* Hidden */
+
+/* Hidden but active element (e.g. hidden submit) */
+
+.exodus-invisible {
+	right: 30000px;
+	left: auto;
+}
+
+/* Assistive Text - hide except from screen readers */
+
+/***************** CLEARFIX *******************/
+
+/**********************************************
+ * 3. LAYOUT
+ **********************************************/
+/*************** SHARED STYLES ****************/
+/* Prepare for sticky footer */
+
+/* Prepare sections for sticky footer */
+
+/* Centered content */
+
+/***************** CONTAINER *****************/
+/* Container - prepare for sticky footer */
+
+/* Middle Content */
+
+/******************* HEADER ********************/
+
+/******************* TOP BAR *******************/
+/* Top Bar */
+
+#exodus-top-bar-content {
+	text-align: left;
+}
+
+/* Line Height */
+
+/* Search Icon */
+
+				#exodus-top-bar-search-icon {
+	margin-left: 30px;
+	float: right;
+	margin-right: auto;
+}
+
+/* Close Icon */
+
+/* Search Form */
+
+				#exodus-top-bar-search-form {
+	margin-left: 30px;
+	float: right;
+	margin-right: auto;
+}
+
+/* Search Input */
+
+					.exodus-search-field {
+	margin-left: 30px;
+	margin-right: auto;
+}
+
+/* Search Button */
+
+					#exodus-top-bar-search-form .exodus-search-button {
+	left: 0;
+	right: auto;
+}
+
+/* Top Menu */
+
+				#exodus-top-bar-menu {
+	margin-left: 15px;
+	float: right;
+	margin-right: auto;
+}
+
+#exodus-top-bar-menu-links li {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+#exodus-top-bar-menu-links li:last-child {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Top Right Content */
+
+/* Top Right Posts (events, posts, etc.) */
+
+				.exodus-top-bar-left-item {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.exodus-top-bar-left-item:first-child {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/* Date */
+
+/* Title */
+
+/****************** LOGO BAR ******************/
+/* Logo Bar */
+
+/* Content Container */
+
+/* Logo */
+
+/* Make logo appear higher than top-right so it can be clicked */
+
+/* Logo Image */
+
+/* Retina Logo */
+
+/* swap only if .exodus-has-hidpi-logo indicates a retina logo exists */
+
+/* show once jQuery adds dimensions from regular (if sooner, Retina logo shows enlarged for split second) */
+/* fallback in case JS off */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-resolution: 120dpi), only screen and (-o-min-device-pixel-ratio: 5/4) {
+
+}
+
+/* Logo Text */
+
+			#exodus-logo-text {
+	right: -2px;
+	left: auto;
+}
+
+/* Lowercase */
+
+/* Font Optimizations */
+
+/* Size */
+
+/* Tagline below logo */
+
+/* Header Right */
+
+		#exodus-logo-bar-left {
+	left: 0;
+	right: auto;
+}
+
+/* Header Right Inner */
+
+			#exodus-logo-bar-left-inner {
+	float: left;
+}
+
+/* Header Right Content */
+
+				#exodus-logo-bar-left-content {
+	text-align: left;
+}
+
+/* Tagline on right */
+
+/* Custom content */
+
+/****************** MENU BAR ******************/
+/* Header Menu Bar (Dropdowns, Social Icons) */
+
+/* Header Menu List */
+
+		#exodus-header-menu-content {
+	float: right;
+}
+
+/* Header Menu Items (Top Level) */
+
+/*
+			Superfish (Dropdowns) - http://users.tpg.com.au/j_birch/plugins/superfish/
+			Copyright (c) 2013 Joel Birch
+			Dual licensed under the MIT and GPL licenses
+			*/
+
+.sf-menu {
+	float: right;
+}
+
+/* All items */
+
+/* All Links */
+
+/* Hover Setup */
+
+				.sf-menu li:hover ul,
+				.sf-menu li.sfHover ul {
+	right: -16px;
+	left: auto;
+}
+
+.sf-menu li li:hover ul,
+				.sf-menu li li.sfHover ul,
+				.sf-menu li li li:hover ul,
+				.sf-menu li li li.sfHover ul {
+	right: 10em;
+	left: auto;
+}
+
+/* Sub Menu Lists */
+
+/* Second level submenu */
+
+/* Sub Menu Items */
+
+/* Sub Menu Item Links */
+
+/* Extra left margin for arrows */
+
+							.sf-menu li li.menu-item-has-children a {
+	padding-left: 1.8em;
+	padding-right: 0;
+}
+
+/* Sub Menu Hovering */
+
+/* Arrows */
+
+.sf-arrows .sf-with-ul a:after {
+	left: -17px;
+	right: auto;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+	left: 10px;
+	margin-left: -3px;
+	right: auto;
+	margin-right: auto;
+}
+
+/* Header Icons */
+
+	#exodus-header-menu .exodus-list-icons {
+	float: left;
+}
+
+/******************* BANNER *******************/
+/* Banner */
+
+/* Header Title */
+
+/* Font Adjustments */
+
+/***************** BREADCRUMBS ****************/
+/* Breadcrumbs */
+
+/* Links */
+
+/* Separator */
+
+/****************** CONTENT *******************/
+
+/* Subpage Content */
+
+#exodus-content {
+	float: right;
+}
+
+/* Also makes top/footer bar BG's fill the width: http://stackoverflow.com/questions/10249229/partial-background-on-ios-mobile-safari; */
+
+/* Create margins for content when "View Full Site" clicked */
+	/* Not done in responsive.css because that is removed for "Full Site" */
+
+	@media only screen and (max-width: 1280px) {
+
+}
+
+/* Content Block */
+
+/* Remove margin from top of first block */
+
+/* Remove margin from first/last elements inside block */
+
+/* Main Title (for page or block) */
+
+.exodus-main-title span {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+/****************** SIDEBAR *******************/
+
+/* Make room for sidebar by content */
+
+.exodus-has-sidebar #exodus-content-inner {
+	margin-left: 390px;
+	margin-right: auto;
+}
+
+/* Sidebar */
+
+#exodus-sidebar-left {
+	margin-right: -300px;
+	float: left;
+	margin-left: auto;
+}
+
+/* Sidebar Widget */
+
+/* Sidebar widget if not CT Highlight */
+
+/* No margin on first widget */
+
+/* Widget Title */
+
+		.exodus-sidebar-widget:not(.widget_ctfw-highlight) .exodus-widget-title {
+	padding: 10px 16px 10px 10px;
+}
+
+/* Font Adjustments */
+
+/* Paragraphs and margin below title */
+
+/******************* FOOTER *******************/
+/* Footer (sticks to bottom when content is short) */
+
+/* Footer Contact */
+
+/* Map + Contact Info */
+
+					#exodus-footer-top-content > div {
+	text-align: right;
+}
+
+#exodus-footer-top-content > div:first-child {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+#exodus-footer-top-content > div:last-child {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Map - Left */
+
+/* Contact Info - Right */
+
+/* Spacing between rows */
+
+/* Times */
+
+/* Phone + Social Icons Row */
+
+						#exodus-footer-top-phone-icons {
+	margin-right: -60px;
+	margin-left: auto;
+}
+
+#exodus-footer-top-phone-icons > div {
+	margin-right: 60px;
+	margin-left: auto;
+}
+
+/* Times / Phone Icons */
+
+						#exodus-footer-top-times span,
+						#exodus-footer-top-phone span {
+	margin-left: 6px;
+	margin-right: auto;
+}
+
+/* All Icons */
+
+/* Buttons */
+
+						#exodus-footer-top-buttons {
+	margin: 0 -12px -22px 0;
+}
+
+/* Button */
+
+							#exodus-footer-top-buttons li {
+	margin: 0 12px 12px 0;
+}
+
+/* There is no map - center info */
+/* NOTE: Below is copied (and .exodus-footer-no-map added) from responsive.css for 1024 or less */
+
+/* Social icons when there is no location */
+
+/* Footer Bottom - Menu / Notice */
+
+/* Space between rows */
+
+/* "View Full Site" link (do not put in responsive.css) */
+
+/* Show if responsive cookie set */
+
+/* Which text to show? */
+
+/* Footer Bottom Left */
+
+			#exodus-footer-bottom-right {
+	float: right;
+}
+
+/* Footer Menu */
+
+				#exodus-footer-menu-links {
+	right: -12px;
+	left: auto;
+}
+
+/* Menu Items */
+
+/* Menu Item Links */
+
+/* Footer Bottom Right */
+
+			#exodus-footer-bottom-left {
+	float: left;
+	text-align: left;
+}
+
+/* Footer Bottom Only One - Center */
+/* Menu, no notice */
+
+/**********************************************
+ * 4. WIDGETS
+ **********************************************/
+/*************** SHARED STYLES ****************/
+/* Widget Entry */
+
+/* Min height on container if thumbnail */
+
+/* Header */
+
+/* Thumbnail Container */
+
+/* Title and meta left of thumbnail */
+
+	.exodus-widget-entry-has-image .exodus-widget-entry-title,
+	.exodus-widget-entry-has-image .exodus-widget-entry-meta {
+	margin-right: 80px;
+	margin-left: auto;
+}
+
+/* Entry Title */
+
+/* Meta List (Date, Author, etc.) */
+
+	.exodus-widget-entry-meta {
+	margin: 0 0 0 -20px;
+	/* negative of li left margin;
+}
+
+/* Meta Item */
+
+		.exodus-widget-entry-meta > li {
+	margin: 15px 0 0 20px;
+}
+
+/* Keep links from wrapping */
+
+/* Date */
+
+/* Icons */
+
+/* Content / Excerpt */
+
+/* No bottom margin on last paragraph */
+
+/* See Homepage section for tweaks */
+/* Dropdown Widgets */
+
+/* List Widgets */
+/* default WP categories - blog only */
+/* enhanced categories - taxonomy selector */
+/* monthly sermon archives */
+/* gallery page list */
+
+.widget_categories ul ul,
+	.widget_ctfw-categories ul ul,
+	.widget_ctfw-archives ul ul,
+	.widget_ctfw-galleries ul ul,
+	.widget_recent_entries ul ul,
+	.widget_recent_comments ul ul,
+	.widget_archive ul ul,
+	.widget_meta ul ul,
+	.widget_pages ul ul,
+	.widget_links ul ul,
+	.widget_nav_menu ul ul {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+/* List Widgets Count */
+
+.widget_categories li,
+.widget_ctfw-categories li,
+.widget_ctfw-archives li,
+.widget_ctfw-galleries li,
+.widget_archive li,
+.widget_links li {
+	padding-left: 35px;
+	padding-right: 0;
+}
+
+.exodus-widget-link-count {
+	left: 0;
+	right: auto;
+}
+
+/************* WP RECENT COMMENTS *************/
+
+/************* WP TAG CLOUD WIDGET ************/
+
+/************* WP CALENDAR WIDGET *************/
+
+/*************** WP RSS WIDGET ****************/
+
+/************ CT HIGHLIGHT WIDGET *************/
+
+/************** CT SERMONS WIDGET *************/
+
+/* Series */
+
+/************ CT LOCATIONS WIDGET *************/
+/* Address */
+
+/* Map */
+
+/************* CT PEOPLE WIDGET ***************/
+/* Position */
+
+/************* CT GALLERY WIDGET **************/
+/* Note there is a buttom margin on gallery thumbnails that could be improved by removal */
+/* Gallery container */
+
+/* Link */
+
+/************* CT GIVING WIDGET ***************/
+/* Giving Widget */
+
+/**********************************************
+ * 5. HOMEPAGE
+ **********************************************/
+/****************** LAYOUT ********************/
+/* No bottom margin for last element on homepage */
+
+/****************** SLIDER ********************/
+/**
+ * jQuery FlexSlider v1.8 (http://www.woothemes.com/flexslider/)
+ * Copyright 2012 WooThemes
+ * MIT license (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+#exodus-slider-inner {
+	right: 50%;
+	margin-right: -850px;
+	left: auto;
+	margin-left: auto;
+}
+
+/* FlexSlider */
+
+/* Browser Resets */
+
+/* FlexSlider Necessary Styles */
+
+.flexslider .slides img {
+	border-top-right-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+}
+
+/* Slider Video */
+
+/* Slide Hover Overlay */
+
+/* Show Overlay */
+
+/* Darker for video overlay so white icon can show on light (semi-transparent allows more dark BG to show through) */
+
+/* Video Hide Title/Description */
+
+/* Video Play Icon */
+
+/* Clearfix for the .slides element */
+
+/* No JavaScript Fallback */
+
+/* Slide Caption (Title + Description) */
+
+/* Hide on first load -- JS snaps it into place after short delay */
+
+/* Pointer if slide linked or video */
+
+/* Caption Content */
+
+/* Slide Title */
+
+				.exodus-slide-title {
+	float: right;
+}
+
+/* Font Adjustments */
+
+/* Slide Description */
+
+				.exodus-slide-description {
+	float: right;
+	clear: right;
+}
+
+/* Title higher if no description */
+
+/* Control Nav (Radios) */
+
+/* Control Buttons */
+
+/*************** HOMEPAGE INTRO ***************/
+
+/* Heading */
+
+/* Content */
+
+/* No content top margin unless have heading */
+
+/* No bottom margin so flush with container */
+
+/* No margin at top for first child in case no heading */
+
+/************ HOMEPAGE HIGHLIGHTS *************/
+
+/* Note: Change all 40px values together for even spacing */
+
+#ctcom-home-highlights {
+	margin: 90px -40px 90px 0;
+}
+
+#ctcom-home-highlights-inner {
+	margin: -40px 0 0 -40px;
+}
+
+#ctcom-home-highlights .exodus-highlight {
+	margin: 40px 40px 0 -40px;
+}
+
+#ctcom-home-highlights .exodus-highlight .exodus-caption-image-inner {
+	margin-left: 40px;
+	margin-right: auto;
+}
+
+/* Bigger title on homepage */
+
+/************** HOMEPAGE WIDGETS **************/
+/* Homepage Widget Columns (Two Columns) */
+
+/* Left Column */
+
+	.exodus-home-bottom-widgets-both #exodus-home-bottom-widgets-right {
+	float: right;
+}
+
+/* Right Column */
+
+	.exodus-home-bottom-widgets-both #exodus-home-bottom-widgets-left {
+	float: left;
+}
+
+/* Homepage Widgets */
+
+/* No margin on first widget */
+
+/* Widget title */
+
+/* Paragraphs */
+
+/* Widget Entries (bigger thumbnail, one meta per line) */
+
+.exodus-home-widget .exodus-widget-entry-has-image .exodus-widget-entry-title,
+	.exodus-home-widget .exodus-widget-entry-has-image .exodus-widget-entry-meta {
+	margin-right: 140px;
+	margin-left: auto;
+}
+
+.exodus-home-widget .exodus-widget-entry-meta > li {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/**********************************************
+ * 6. ENTRY STYLES (Shared)
+ **********************************************/
+/* These are generic styles used by multiple post types */
+/******** SHARED STYLES (Full + Short) ********/
+/* Entry Header */
+
+/* Increase space above when entry has image to compensate for line height */
+
+/* Image Container */
+
+	.exodus-entry-image {
+	float: right;
+	padding: 2px 0 0 30px;
+}
+
+/* Apply max height so don't start shrinking until need to */
+
+/* No sidebar */
+
+/* Title & Meta Container */
+
+.exodus-entry-title-meta {
+	float: right;
+}
+
+/* No sidebar */
+
+/* No image */
+
+/* Title */
+
+/* Meta List */
+
+	.exodus-entry-meta {
+	margin: 8px 0 0 -30px;
+	/* negative of li left margin;
+}
+
+/* Meta Item */
+
+		.exodus-entry-meta > li {
+	margin: 16px 0 0 30px;
+}
+
+/* Meta is first element (no Title) so remove space above */
+
+/* Links */
+
+/* Move buttons down a little to compensate for line height */
+
+/* Date */
+
+/* Icon List */
+
+/* Entry Content (full content, short excerpt and comment content use this) */
+
+/*************** FULL / SINGLE ****************/
+/* Margin between elements */
+
+/* No bottom margin on last element in entry */
+
+/* Password Protection Form */
+
+/* Input */
+
+/* Loop After Content */
+/* Entry content is first child, meaning no Title */
+/* Loop after content is first child, meaning no content above it */
+
+/* Entry Footer */
+
+/* Multipage Navigation (Pages: 1 2 3)  - for posts/pages broken into multiple pages */
+
+/* "Pages:" */
+
+/* Linked Page # */
+
+/* Term Lists (categories, tags, etc.) */
+
+/* No margin on first item */
+
+/* Edit Link */
+
+	.exodus-entry-footer .post-edit-link {
+	float: left;
+}
+
+/************** SHORT / MULTIPLE **************/
+/* Container */
+
+/* More margin abobe meta on short to better line up with thumbnail */
+
+/* Margin between elements (less than Full) */
+
+/* Remove margin from top of first entry when show latest posts on homepage or "Posts page" */
+
+/* Sticky posts - required class */
+
+/**********************************************
+ * 7. SERMONS
+ **********************************************/
+/*************** FULL / SINGLE ****************/
+/* Space between player and buttons */
+
+/**********************************************
+ * 8. EVENTS
+ **********************************************/
+/*************** FULL / SINGLE ****************/
+/* Space between map and buttons */
+
+/**********************************************
+ * 9. LOCATIONS
+ **********************************************/
+/*************** FULL / SINGLE ****************/
+/* Space between map and buttons */
+
+/**********************************************
+ * 10. ATTACHMENTS
+ **********************************************/
+/* Back button max 100% since there is none on right */
+
+/**********************************************
+ * 11. GALLERIES
+ **********************************************/
+
+/************** GALLERY (SINGLE) **************/
+
+/* Styles for native WordPress gallery based on styles from Twenty Thirteen theme */
+/* Note that these classes also used for showing cover thumbnails on Galleries template */
+
+/* Gallery Container */
+
+.gallery {
+	offset for right/left margin */
+	position: relative;
+}
+
+/* Thumbnail Container */
+
+	.gallery-item {
+	float: right;
+}
+
+/* Thumbnail caption */
+
+		.gallery-caption {
+	text-align: right;
+}
+
+/* Show on hover */
+
+/* Smaller caption for small thumbnails */
+
+/* No caption for very small thumbnails, galleries in widgets, and browsers without opacity */
+
+/* Multi-column widths */
+
+/* Flush with left edge */
+
+	.gallery-columns-1 .gallery-item:nth-of-type(1n),
+	.gallery-columns-2 .gallery-item:nth-of-type(2n),
+	.gallery-columns-3 .gallery-item:nth-of-type(3n),
+	.gallery-columns-4 .gallery-item:nth-of-type(4n),
+	.gallery-columns-5 .gallery-item:nth-of-type(5n),
+	.gallery-columns-6 .gallery-item:nth-of-type(6n),
+	.gallery-columns-7 .gallery-item:nth-of-type(7n),
+	.gallery-columns-8 .gallery-item:nth-of-type(8n),
+	.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Remove unnecesary breaks/clearing */
+
+/* Single column gallery (wider spacing) */
+
+.gallery-columns-1 {
+	margin: 40px 0 26px -11px;
+}
+
+/**********************************************
+ * 12. COMMENTS
+ **********************************************/
+/* Note: #comments is hardcoded in WP core comments_popup_link(), so no prefix */
+/*************** COMMENT LIST *****************/
+/* <ol> */
+
+/* Comment or Trackback/Pingback Item */
+
+/* Comment Meta */
+
+/* Avatar Container */
+
+			.exodus-comment-avatar {
+	margin-left: 18px;
+	float: right;
+	margin-right: auto;
+}
+
+/* Image */
+
+/* Comment Author or Trackback */
+
+/* Post author, or trackback or pingback note - after name/link */
+
+/* Date */
+
+/* Buttons */
+
+			.exodus-comment-buttons {
+	float: left;
+}
+
+.comment-reply-link,
+				.comment-edit-link {
+	float: right;
+	margin-right: 14px;
+	margin-left: auto;
+}
+
+/* Comment Content */
+
+/* Less space between paragraphs / blocks */
+
+/* Moderation Note */
+
+/* Indentations */
+
+		.exodus-comment,
+		.exodus-comment #respond {
+	margin-right: 6%;
+	margin-left: auto;
+}
+
+.exodus-comment.depth-1 {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/* Post author */
+
+/* Comment nav */
+
+/**************** COMMENT FORM ****************/
+/* Comment Form */
+
+/* No bottom margin when at bottom */
+
+/* Cancel Reply Link */
+
+	#cancel-comment-reply-link {
+	margin-right: 25px;
+	margin-left: auto;
+}
+
+/* Message above form */
+
+/* Text Inputs */
+
+#respond .required {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+#respond input[type=text] {
+	right: 90px;
+	left: auto;
+}
+
+/* Comment Field */
+
+	.comment-form-comment {
+	clear: right;
+}
+
+/* Comment Textarea */
+
+/* Error Messages */
+
+/* Error text */
+
+/* Error Message for Name, Email, URL after input */
+
+		.comment-form-author label.error,
+		.comment-form-email label.error,
+		.comment-form-url label.error {
+	right: 375px;
+	left: auto;
+}
+
+/* Error Message for Comment */
+
+/* Allowed tags note */
+
+/* Submit Button */
+
+/* Comments closed message (in place of add form if comments have already been made) */
+
+/**********************************************
+ * 13. PLUGINS
+ **********************************************/
+/************** CONTACT FORM 7 ****************/
+
+span.wpcf7-not-valid-tip {
+	right: 30%;
+	left: auto;
+}
+
+/***************** JETPACK *******************/
+
+/* Hide the Jetpack stat smiley (used when JS off) */
+
+#wpstats {
+	right: 30000px;
+	left: auto;
+}
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

@@ -1,0 +1,261 @@
+/**
+ * Editor Styles
+ *
+ * These affect the content editor when adding or editing a post.
+ */
+
+/* Reset */
+
+* { /* natural box layout model */
+	-webkit-box-sizing:	border-box;
+	-moz-box-sizing:	border-box;
+	box-sizing:			border-box;
+}
+
+img {
+	vertical-align: bottom; /* remove gap from below <img> tags */
+}
+
+/* Base Font */
+
+body,
+input,
+textarea {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.9em;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: 20px;
+	-webkit-text-size-adjust: 100%; /* prevent inconsistent font sizes in mobile Safari */
+}
+
+/* Base Font */
+
+body,
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.9em;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%; /* prevent inconsistent font sizes in mobile Safari */
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 { /* comment form title */
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+
+h4 {
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+h5 {
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+
+h6 {
+	font-size: 1em;
+	line-height: 1.9em;
+}
+
+/* Paragraph */
+
+p,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+table,
+form {
+	margin: 30px 0;
+}
+
+	/* None on first */
+
+	body > *:first-child {
+		margin-top: 0;
+	}
+
+/* Subscript */
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+/* Superscript */
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+/* Lists */
+
+ul,
+ol { /* more comfortable margins */
+	margin-left: 40px;
+}
+
+	ul ul,
+	ol ol,
+	ul ol,
+	ol ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+ul { /* consistent bullets */
+	list-style: square;
+}
+
+dl { /* definition list */
+	margin-left: 25px;
+}
+
+	dt {
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	dd {
+		margin-bottom: 20px;
+	}
+
+/* Blockquote */
+
+blockquote {
+	display: block;
+	position: relative;
+	margin: 40px 5%;
+	padding-left: 60px;
+	font-size: 1.2em; /* a little bigger */
+	line-height: 1.6em;
+	font-style: italic;
+}
+
+	/* Quotation mark before */
+
+	blockquote:before {
+		position: absolute;
+		top: 20px;
+		left: -5px;
+		display: block;
+		content: "\201C";
+		font-size: 5em;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	/* <cite> in blockquote */
+
+	blockquote cite {
+		display: block;
+		margin-top: 30px;
+		font-size: 0.8em; /* back to normal size */
+		font-weight: bold;
+		font-style: normal;
+		line-height: 1.6em;
+	}
+
+		/* Emdash before */
+
+		blockquote cite:before {
+			content: "\2014 \2009";
+		}
+
+/* Quote Tag */
+
+q {
+	font-style: italic;
+}
+
+/* Tables */
+
+table {
+	width: 100%;
+}
+
+	caption {
+		margin-bottom: 20px;
+	}
+
+	th,
+	td {
+		padding: 5px 10px 5px 0;
+		text-align: left;
+	}
+
+/* WordPress Images */
+
+.alignnone {
+	margin: 30px 0;
+}
+
+	p .alignnone {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+.aligncenter {
+	display: block;
+	margin: 30px auto; /* top/bottom margin, centered */
+}
+
+.alignleft {
+	float: left;
+	margin: 20px 25px 20px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 20px 0 20px 25px;
+}
+
+.wp-caption {
+	max-width: 100%;
+    text-align: center;
+    background: transparent;
+    border: 0;
+}
+
+.wp-caption-text {
+	font-size: 1em;
+    margin: 8px 0 0 0;
+    padding: 0 5px;
+    line-height: 1.5em;
+}
