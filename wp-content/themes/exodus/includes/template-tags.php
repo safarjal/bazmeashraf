@@ -127,7 +127,7 @@ function exodus_breadcrumbs( $location ) {
 		// Build them with framework
 		$breadcrumbs = new CTFW_Breadcrumbs( array(
 			'classes'	=> 'exodus-centered-content', // center the breadcrumbs like content
-			'separator'	=> '<span class="el-icon-chevron-right exodus-breadcrumb-separator"></span>'
+			'separator'	=> '<span class="el-icon-chevron-left exodus-breadcrumb-separator"></span>'
 		) );
 
 	}

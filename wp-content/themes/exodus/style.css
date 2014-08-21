@@ -483,6 +483,7 @@ input[type=submit] {
 
 /* Top */
 
+
 .exodus-rounded .sf-menu li:first-child,
 .exodus-rounded .sf-menu ul li:first-child:hover > a,
 .exodus-rounded .exodus-sidebar-widget:not(.widget_ctfw-highlight) .exodus-widget-title {
@@ -688,7 +689,7 @@ a .exodus-image, /* typically a linked image */
 /* Icon to left of content */
 
 .exodus-content-icon { /* add to container having <span class="icon"></span> before other content */
-	padding-left: 30px; /* offset for icon */
+	padding-right: 30px; /* offset for icon */
 	position: relative;
 }
 
@@ -698,7 +699,7 @@ a .exodus-image, /* typically a linked image */
 	.exodus-content-icon > [class*=" el-icon-"] {
 		position: absolute;
 		top: 3px;
-		left: 0;
+		right: 0;
 		font-size: 1.2em;
 	}
 
@@ -3530,4 +3531,10 @@ div.wpcf7-validation-errors {
 	top: 0;
 	left: 30000px;
 	overflow: hidden;
+}
+
+
+#exodus-header-menu-content li ul li .sub-menu { right: 100% !important;}
+.sf-arrows ul .sf-with-ul:after {
+border-right-color: #555;
 }
