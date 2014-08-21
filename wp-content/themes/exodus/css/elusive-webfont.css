@@ -494,10 +494,10 @@
   content: "\e699";
 }
 .el-icon-indent-right:before {
-  content: "\e69a";
+  content: "\e69b";
 }
 .el-icon-indent-left:before {
-  content: "\e69b";
+  content: "\e69a";
 }
 .el-icon-inbox-box:before {
   content: "\e69c";
@@ -545,10 +545,10 @@
   content: "\e6aa";
 }
 .el-icon-hand-right:before {
-  content: "\e6ab";
+  content: "\e6ac";
 }
 .el-icon-hand-left:before {
-  content: "\e6ac";
+  content: "\e6ab";
 }
 .el-icon-hand-down:before {
   content: "\e6ad";
@@ -773,10 +773,10 @@
   content: "\e6f6";
 }
 .el-icon-circle-arrow-right:before {
-  content: "\e6f7";
+  content: "\e6f8";
 }
 .el-icon-circle-arrow-left:before {
-  content: "\e6f8";
+  content: "\e6f7";
 }
 .el-icon-circle-arrow-down:before {
   content: "\e6f9";
@@ -788,10 +788,10 @@
   content: "\e6fb";
 }
 .el-icon-chevron-right:before {
-  content: "\e6fc";
+  content: "\e6fd";
 }
 .el-icon-chevron-left:before {
-  content: "\e6fd";
+  content: "\e6fc";
 }
 .el-icon-chevron-down:before {
   content: "\e6fe";
@@ -812,10 +812,10 @@
   content: "\e703";
 }
 .el-icon-caret-right:before {
-  content: "\e704";
+  content: "\e705";
 }
 .el-icon-caret-left:before {
-  content: "\e705";
+  content: "\e704";
 }
 .el-icon-caret-down:before {
   content: "\e706";
@@ -890,19 +890,19 @@
   content: "\e71d";
 }
 .el-icon-arrow-right:before {
-  content: "\e71e";
+  content: "\e71f";
 }
 .el-icon-arrow-left:before {
-  content: "\e71f";
+  content: "\e71e";
 }
 .el-icon-arrow-down:before {
   content: "\e720";
 }
 .el-icon-align-right:before {
-  content: "\e721";
+  content: "\e722";
 }
 .el-icon-align-left:before {
-  content: "\e722";
+  content: "\e721";
 }
 .el-icon-align-justify:before {
   content: "\e723";
