@@ -1754,18 +1754,18 @@ body {
 					#exodus-footer-top-content > div {
 						display: inline-block;
 						margin: 0 2.5%;
-						text-align: left;
+						text-align: right;
 						vertical-align: middle;
 					}
 
 						#exodus-footer-top-content > div:first-child {
 							max-width: 40%;
-							margin-left: 0;
+							margin-right: 0;
 						}
 
 						#exodus-footer-top-content > div:last-child {
 							max-width: 53%;
-							margin-right: 0;
+							margin-left: 0;
 						}
 
 					/* Map - Left */
@@ -1799,11 +1799,11 @@ body {
 						/* Phone + Social Icons Row */
 
 						#exodus-footer-top-phone-icons {
-							margin-left: -60px;
+							margin-right: -60px;
 						}
 
 							#exodus-footer-top-phone-icons > div {
-								margin-left: 60px;
+								margin-right: 60px;
 								display: inline-block;
 								vertical-align: middle;
 							}
@@ -1812,7 +1812,7 @@ body {
 
 						#exodus-footer-top-times span,
 						#exodus-footer-top-phone span {
-							margin-right: 6px;
+							margin-left: 6px;
 							font-size: 1.5em;
 							vertical-align: middle;
 						}

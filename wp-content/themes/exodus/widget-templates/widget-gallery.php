@@ -71,7 +71,7 @@ else :
 ?>
 
 	<div>
-		<?php _ex( 'There are no images to show.', 'gallery widget', 'exodus' ); ?>
+		<?php _ex( 'کویٔ تصاویر نہیں ہیں۔', 'gallery widget', 'exodus' ); ?>
 	</div>
 
 <?php
