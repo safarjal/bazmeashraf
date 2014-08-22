@@ -379,13 +379,13 @@ a.comment-edit-link:hover,
 	}
 
 	.sf-arrows ul .sf-with-ul:after { /* sub menu */
-		border-left-color: #555;
+		border-right-color: #555;
 	}
 
 	.sf-arrows ul li > .sf-with-ul:focus:after,/* sub menu */
 	.sf-arrows ul li:hover > .sf-with-ul:after,
 	.sf-arrows ul .sfHover > .sf-with-ul:after {
-		border-left-color: #222;
+		border-right-color: #222;
 	}
 
 /******************* FOOTER *******************/

@@ -118,7 +118,7 @@ function get_the_title( $post = 0 ) {
 			 * @param string $prepend Text displayed before the post title.
 			 *                        Default 'Protected: %s'.
 			 */
-			$protected_title_format = apply_filters( 'protected_title_format', __( 'Protected: %s' ) );
+			$protected_title_format = apply_filters( 'protected_title_format', __( 'مقفل: %s' ) );
 			$title = sprintf( $protected_title_format, $title );
 		} else if ( isset( $post->post_status ) && 'private' == $post->post_status ) {
 

@@ -352,7 +352,7 @@ q {
 
 	.exodus-entry-content th {
 		padding: 0 10px 10px 0;
-		text-align: left;
+		text-align: right;
 	}
 
 	.exodus-entry-content td {
@@ -3535,6 +3535,3 @@ div.wpcf7-validation-errors {
 
 
 #exodus-header-menu-content li ul li .sub-menu { right: 100% !important;}
-.sf-arrows ul .sf-with-ul:after {
-border-right-color: #555;
-}
