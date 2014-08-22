@@ -200,9 +200,9 @@ function exodus_comments_link() {
 		$scroll_class = is_singular() ? 'exodus-scroll-to-comments' : ''; // full post only
 
 		comments_popup_link(
-			__( '0 Comments', 'exodus' ),
-			__( '1 Comment', 'exodus' ),
-			__( '% Comments', 'exodus' ),
+			__( '0 تبصرے', 'exodus' ),
+			__( '1 تبصرھ', 'exodus' ),
+			__( '% تبصرے', 'exodus' ),
 			$scroll_class,
 			'' // show nothing when comments off
 		);

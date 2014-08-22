@@ -249,7 +249,7 @@ function wp_dashboard_right_now() {
 	// Comments
 	$num_comm = wp_count_comments();
 	if ( $num_comm && $num_comm->total_comments ) {
-		$text = sprintf( _n( '%s Comment', '%s Comments', $num_comm->total_comments ), number_format_i18n( $num_comm->total_comments ) );
+		$text = sprintf( _n( '%s Comment', '%s تبصرے', $num_comm->total_comments ), number_format_i18n( $num_comm->total_comments ) );
 		?>
 		<li class="comment-count"><a href="edit-comments.php"><?php echo $text; ?></a></li>
 		<?php
