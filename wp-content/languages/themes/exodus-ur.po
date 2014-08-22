@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Exodus\n"
 "POT-Creation-Date: 2014-06-04 18:03-0600\n"
-"PO-Revision-Date: 2014-08-23 02:54+0500\n"
+"PO-Revision-Date: 2014-08-23 03:29+0500\n"
 "Last-Translator: Afeefa <safarjal22@gmail.com>\n"
 "Language-Team: churchthemes.com\n"
 "Language: ur\n"
@@ -50,7 +50,7 @@ msgstr ""
 #, php-format
 msgctxt "comments"
 msgid "%3$s <span class=\"exodus-comment-time\">at %4$s</span>"
-msgstr "%3$s <span class=\"exodus-comment-time\">%4$s بجے</span>"
+msgstr "%3$s <span class=\"exodus-comment-time\">%4$s پر</span>"
 
 #: ../comment.php:103
 msgid "Your comment is awaiting moderation."
@@ -1961,7 +1961,7 @@ msgstr "ایک تبصرہ"
 
 #: ../includes/template-tags.php:205
 msgid "% Comments"
-msgstr "% تطصرے"
+msgstr "% تبصرے"
 
 #: ../loop-author.php:37
 msgid "More Posts"

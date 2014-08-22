@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Church Theme Content\n"
 "POT-Creation-Date: 2014-05-16 14:54-0600\n"
-"PO-Revision-Date: 2014-08-23 01:49+0500\n"
+"PO-Revision-Date: 2014-08-23 03:05+0500\n"
 "Last-Translator: Afeefa <safarjal22@gmail.com>\n"
 "Language-Team: churchthemes.com\n"
 "Language: es_ES\n"
@@ -397,7 +397,7 @@ msgstr "پی ڈی ایف کی فایٔل اختیار کیجیے"
 #: ../includes/admin/sermon-fields.php:232
 msgctxt "sermons"
 msgid "Formats"
-msgstr "Formatos"
+msgstr ""
 
 #: ../includes/admin/sermon-fields.php:233
 msgid "Topics"
@@ -498,7 +498,7 @@ msgstr "نیا ڈالیے"
 
 #: ../includes/post-types.php:82
 msgid "Add Event"
-msgstr "نیٔمجلس"
+msgstr "نیٔ مجلس"
 
 #: ../includes/post-types.php:83
 msgid "Edit Event"

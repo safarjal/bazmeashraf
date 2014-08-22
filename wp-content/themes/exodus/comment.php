@@ -99,7 +99,6 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 		<div class="exodus-comment-content exodus-entry-content">
 
 			<?php if ( '0' == $comment->comment_approved ) : ?>
-4]
 				<p class="exodus-comment-moderation"><?php _e( 'آپ کا تبصرہ دیکھے جانے کے بعد شایع ہو گا۔', 'exodus' ); ?></p>
 			<?php endif; ?>
 
