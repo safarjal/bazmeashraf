@@ -46,7 +46,7 @@ function ctfw_head_title( $title, $sep, $seplocation ) {
 		$page = ctfw_page_num();
 		if ( $page > 1 ) {
 			/* translators: page number in <title> */
-			$page_number = sprintf( _x( ' (Page %d)', 'head title', 'church-theme-framework' ), $page );
+			$page_number = sprintf( _x( ' (صفحہ %d)', 'head title', 'church-theme-framework' ), $page );
 		}
 
 		// Homepage (site name - tagline )

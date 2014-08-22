@@ -25,7 +25,7 @@ function wpcf7_submit_shortcode_handler( $tag ) {
 	$value = isset( $tag->values[0] ) ? $tag->values[0] : '';
 
 	if ( empty( $value ) )
-		$value = __( 'Send', 'contact-form-7' );
+		$value = __( 'بھیج دیں', 'contact-form-7' );
 
 	$atts['type'] = 'submit';
 	$atts['value'] = $value;

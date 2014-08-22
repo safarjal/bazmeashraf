@@ -42,7 +42,7 @@ if ( is_singular( get_post_type() ) ) :
 			<div class="exodus-location-full-direction">
 				<a href="<?php echo esc_url( $directions_url ); ?>" target="_blank" class="exodus-button">
 					<span class="<?php exodus_icon_class( 'location-directions' ); ?> exodus-button-icon"></span>
-					<?php _ex( 'Get Directions', 'location', 'exodus' ); ?>
+					<?php _ex( 'ہدایات', 'location', 'exodus' ); ?>
 				</a>
 			</div>
 		<?php endif; ?>

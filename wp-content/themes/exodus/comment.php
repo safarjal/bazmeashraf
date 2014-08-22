@@ -67,7 +67,7 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 
 						// "Author" after name if post author
 						if ( $is_post_author ) {
-							_ex( '(Author)', 'comments', 'exodus' );
+							_ex( '(مصنف)', 'comments', 'exodus' );
 						}
 
 						// "Trackback" or "Pingback" after link
@@ -100,7 +100,7 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 		<div class="exodus-comment-content exodus-entry-content">
 
 			<?php if ( '0' == $comment->comment_approved ) : ?>
-				<p class="exodus-comment-moderation"><?php _e( 'Your comment is awaiting moderation.', 'exodus' ); ?></p>
+				<p class="exodus-comment-moderation"><?php _e( 'آپ کا تبصرہ دیکھے جانے کے بعد شایع ہو گا۔', 'exodus' ); ?></p>
 			<?php endif; ?>
 
 			<?php comment_text(); ?>

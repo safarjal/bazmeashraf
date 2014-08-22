@@ -351,7 +351,7 @@ class CTFW_Breadcrumbs {
 			$page_num = ctfw_page_num();
 			if ( $page_num > 1 ) {
 				$this->add_breadcrumb( $breadcrumbs, array(
-					sprintf( _x( 'Page %s', 'breadcrumb', 'church-theme-framework' ), $page_num ),
+					sprintf( _x( 'صفحہ نمبر %s', 'breadcrumb', 'church-theme-framework' ), $page_num ),
 					$_SERVER['REQUEST_URI']
 				) );
 			}
@@ -362,7 +362,7 @@ class CTFW_Breadcrumbs {
 				// Search Results
 				if ( is_search() ) {
 					$this->add_breadcrumb( $breadcrumbs, array(
-						_x( 'Search Results', 'breadcrumb', 'church-theme-framework' ),
+						_x( 'نتایٔج بحث', 'breadcrumb', 'church-theme-framework' ),
 						get_search_link()
 					) );
 				}

@@ -839,7 +839,7 @@ function wpcf7_default_form_template() {
 		. '    [text your-subject] </p>' . "\n\n"
 		. '<p>' . __( 'Your Message', 'contact-form-7' ) . '<br />' . "\n"
 		. '    [textarea your-message] </p>' . "\n\n"
-		. '<p>[submit "' . __( 'Send', 'contact-form-7' ) . '"]</p>';
+		. '<p>[submit "' . __( 'بھیج دیں', 'contact-form-7' ) . '"]</p>';
 
 	return $template;
 }
