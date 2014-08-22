@@ -2051,15 +2051,15 @@ function comment_form( $args = array(), $post_id = null ) {
 	$aria_req = ( $req ? " aria-required='true'" : '' );
 	$html5    = 'html5' === $args['format'];
 	$fields   =  array(
-		'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+		'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'نام' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
 		            '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',
-		'email'  => '<p class="comment-form-email"><label for="email">' . __( 'Email' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+		'email'  => '<p class="comment-form-email"><label for="email">' . __( 'ای میل' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
 		            '<input id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>',
-		'url'    => '<p class="comment-form-url"><label for="url">' . __( 'Website' ) . '</label> ' .
+		'url'    => '<p class="comment-form-url"><label for="url">' . __( 'ویب سایٔٹ' ) . '</label> ' .
 		            '<input id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>',
 	);
 
-	$required_text = sprintf( ' ' . __('Required fields are marked %s'), '<span class="required">*</span>' );
+	$required_text = sprintf( ' ' . __('مطلوبہ فیلڈز پر %s کا نشان ہے۔'), '<span class="required">*</span>');
 
 	/**
 	 * Filter the default comment form fields.
@@ -2073,10 +2073,10 @@ function comment_form( $args = array(), $post_id = null ) {
 		'fields'               => $fields,
 		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>',
 		/** This filter is documented in wp-includes/link-template.php */
-		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
+		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'آپ کو تبصرہ ڈالنے کے لیے <a href="%s">لاگ ان</a> ہونا پڑے گا.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		/** This filter is documented in wp-includes/link-template.php */
 		'logged_in_as'         => '<p class="logged-in-as">' . sprintf( __( 'آپ <a href="%1$s">%2$s</a> کے نام سے لاگ ان ہیں. <a href="%3$s" title="Log out of this account">کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟</a>' ), get_edit_user_link(), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
-		'comment_notes_before' => '<p class="comment-notes">' . __( 'Your email address will not be published.' ) . ( $req ? $required_text : '' ) . '</p>',
+		'comment_notes_before' => '<p class="comment-notes">' . __( 'آپ کا ای میل ایڈرس نہیں شایع کیا جایے گا.' ) . ( $req ? $required_text : '' ) . '</p>',
 		'comment_notes_after'  => '<p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) . '</p>',
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',

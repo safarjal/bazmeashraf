@@ -3403,7 +3403,7 @@ body {
 
 		#respond input[type=text] {
 			position: absolute;
-			left: 90px;
+			right: 90px;
 			width: 260px;
 		}
 
@@ -3441,7 +3441,7 @@ body {
 		.comment-form-email label.error,
 		.comment-form-url label.error {
 			position: absolute;
-			left: 375px;
+			right: 375px;
 			white-space: nowrap;
 		}
 
