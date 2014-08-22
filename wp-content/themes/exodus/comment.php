@@ -67,7 +67,7 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 
 						// "Author" after name if post author
 						if ( $is_post_author ) {
-							_ex( '(مصنف)', 'comments', 'exodus' );
+							_ex( '(Author)', 'comments', 'exodus' );
 						}
 
 						// "Trackback" or "Pingback" after link
@@ -83,7 +83,6 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 					</span>
 				<?php endif; ?>
 
-			</div>
 
 			<?php
 			/* translators: %3$s is date and %4$s is time for comments */
@@ -100,6 +99,7 @@ if ( in_array( $comment->comment_type, array( 'trackback', 'pingback' ) ) ) {
 		<div class="exodus-comment-content exodus-entry-content">
 
 			<?php if ( '0' == $comment->comment_approved ) : ?>
+4]
 				<p class="exodus-comment-moderation"><?php _e( 'آپ کا تبصرہ دیکھے جانے کے بعد شایع ہو گا۔', 'exodus' ); ?></p>
 			<?php endif; ?>
 

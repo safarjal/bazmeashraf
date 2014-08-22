@@ -1,0 +1,2178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exodus\n"
+"POT-Creation-Date: 2014-06-04 18:03-0600\n"
+"PO-Revision-Date: 2014-08-23 02:54+0500\n"
+"Last-Translator: Afeefa <safarjal22@gmail.com>\n"
+"Language-Team: churchthemes.com\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comment.php:48
+#, php-format
+msgid "%s Reply"
+msgstr "%s جواب دیں"
+
+#: ../comment.php:49
+msgid "Log in to Reply"
+msgstr "جواب دینے کے لیے لاگ ان کیجیے"
+
+#: ../comment.php:56
+#, php-format
+msgctxt "comment"
+msgid "%s Edit"
+msgstr "%s بدلیے"
+
+#: ../comment.php:70
+msgctxt "comments"
+msgid "(Author)"
+msgstr "(مصنف)"
+
+#: ../comment.php:76
+msgid "(Trackback)"
+msgstr ""
+
+#: ../comment.php:78
+msgid "(Pingback)"
+msgstr ""
+
+#: ../comment.php:90
+#, php-format
+msgctxt "comments"
+msgid "%3$s <span class=\"exodus-comment-time\">at %4$s</span>"
+msgstr "%3$s <span class=\"exodus-comment-time\">%4$s بجے</span>"
+
+#: ../comment.php:103
+msgid "Your comment is awaiting moderation."
+msgstr "آپ کا تبصرہ دیکھے جانے کے بعد شائع ہو گا۔"
+
+#: ../comments.php:29
+msgctxt "password protected"
+msgid "Comments"
+msgstr "تبصرے"
+
+#: ../comments.php:33
+msgid "Enter the password above to view any comments."
+msgstr "تبصروں کو دیکھنے کے لیے پاس ورڈ ڈالیں۔"
+
+#: ../comments.php:44
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "ایک تبصرہ"
+msgstr[1] "%1$s تبصرے"
+
+#: ../comments.php:68
+#, php-format
+msgid " %s Older Comments"
+msgstr " %s پرانے تبصرے"
+
+#: ../comments.php:69
+#, php-format
+msgid "Newer Comments %s"
+msgstr "نیۓ تبصرے %s"
+
+#: ../comments.php:83
+msgctxt "comment form"
+msgid "Add a Comment"
+msgstr "تبصرھ ڈالیے"
+
+#: ../comments.php:84
+#, php-format
+msgid "Add a Reply to %s"
+msgstr "%s کو جواب دیجیے"
+
+#: ../comments.php:85
+msgctxt "comment form"
+msgid "Cancel"
+msgstr "منسوخ کریں"
+
+#: ../comments.php:86
+msgctxt "comment form"
+msgid "Add Comment"
+msgstr "تبصرہ ڈالیے"
+
+#: ../comments.php:96
+msgid "Commenting has been turned off."
+msgstr "تبصروں کو بند کر دیا گیا ہے۔"
+
+#: ../content-attachment-header.php:24
+#, php-format
+msgid "Uploaded %s"
+msgstr "%s کو اپ لوڈ کر دیا"
+
+#: ../content-attachment.php:46
+#, php-format
+msgid "Download %s"
+msgstr "%s کو ڈاؤن لوڈ کریں"
+
+#: ../content-event.php:48
+msgctxt "event"
+msgid "Get Directions"
+msgstr "ہدایات حاصل کریں"
+
+#: ../content-footer-full.php:19 ../content-footer-full.php:30
+#: ../content-footer-full.php:36 ../content-post-header.php:38
+#: ../content-sermon-header.php:33 ../content-sermon-header.php:40
+#: ../content-sermon-header.php:47 ../widget-templates/widget-sermons.php:79
+#: ../widget-templates/widget-sermons.php:85
+#: ../widget-templates/widget-sermons.php:91
+#: ../widget-templates/widget-sermons.php:97
+msgid ", "
+msgstr "، "
+
+#: ../content-footer-full.php:20 ../content-footer-full.php:37
+#, php-format
+msgid "Tagged with %s"
+msgstr "%s کا ٹیگ والا"
+
+#: ../content-footer-full.php:31
+#, php-format
+msgid "Series: %s"
+msgstr "سلسلہ: %s"
+
+#: ../content-footer-full.php:58
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: ../content-footer-full.php:94
+#, php-format
+msgid "%1$s Edit %2$s"
+msgstr "%1$s بدلیے %2$s"
+
+#: ../content-footer-short.php:42
+msgid "Read"
+msgstr "پرھیے"
+
+#: ../content-footer-short.php:44
+msgctxt "sermon button"
+msgid "Details"
+msgstr "تفصیلات"
+
+#: ../content-footer-short.php:53
+msgid "Watch"
+msgstr "دیکھیے"
+
+#: ../content-footer-short.php:62
+msgid "Listen"
+msgstr "سنیے"
+
+#: ../content-footer-short.php:69 ../content-sermon.php:164
+msgid "Download PDF"
+msgstr "پی ڈی ایف ڈاؤن لوڈ کریں"
+
+#: ../content-footer-short.php:71
+msgid "PDF"
+msgstr "پی ڈی ایف"
+
+#: ../content-footer-short.php:91
+msgid "Location Details"
+msgstr "مقام کی تفصیلات"
+
+#: ../content-footer-short.php:96 ../content-footer-short.php:119
+msgid "Directions"
+msgstr "ہدایات"
+
+#: ../content-footer-short.php:114
+msgid "Event Details"
+msgstr "مجلس کی تفصیلات"
+
+#: ../content-footer-short.php:133
+msgid "Read Biography"
+msgstr "سوانح پڑھیے"
+
+#: ../content-footer-short.php:147
+msgid "View Gallery"
+msgstr "گیلری دیکھیے"
+
+#: ../content-footer-short.php:169
+msgid "Read More"
+msgstr "اور پڑھیے"
+
+#: ../content-footer-short.php:175
+#, php-format
+msgid "View %s"
+msgstr "%s کو دیکھیں"
+
+#: ../content-location.php:45
+msgctxt "location"
+msgid "Get Directions"
+msgstr "ہدایات حاصل کریں"
+
+#: ../content-sermon.php:130
+msgid "Show Video Player"
+msgstr "ویڈیو پلیئر دکھایٔں"
+
+#: ../content-sermon.php:139
+msgid "Show Audio Player"
+msgstr "آڈیو پلیئر دکھایٔں"
+
+#: ../content-sermon.php:146
+msgid "Download Video"
+msgstr "ویڈیو ڈاؤن لوڈ کر لیں"
+
+#: ../content-sermon.php:148
+msgid "Save Video"
+msgstr "ویڈیو سیو کر لیں"
+
+#: ../content-sermon.php:155
+msgid "Download Audio"
+msgstr "رکارڈنگ ڈاؤن لوڈ کر لیں"
+
+#: ../content-sermon.php:157
+msgid "Save Audio"
+msgstr "رکارڈنگ سیو کر لیں"
+
+#: ../content-sermon.php:166
+msgid "Save PDF"
+msgstr "پی ڈی ایف سیو کر لیں"
+
+#: ../footer.php:173
+msgctxt "footer"
+msgid "More Info"
+msgstr "مزید معلومات"
+
+#: ../footer.php:176
+msgctxt "footer"
+msgid "Directions"
+msgstr "ہدایات"
+
+#: ../footer.php:180
+msgctxt "footer"
+msgid "All Locations"
+msgstr "تمام مقامات"
+
+#: ../footer.php:213
+msgid "View Full Site"
+msgstr "مکمل ویب سایٔٹ دیکھیے"
+
+#: ../footer.php:217
+msgid "View Mobile Site"
+msgstr "موبایل کے لیے ویب سایٔٹ دیکھیے"
+
+#: ../framework/includes/admin/admin-taxonomies.php:70
+#, php-format
+msgid ""
+"<b>Custom Ordering:</b> Try <a href=\"%s\" target=\"_blank\">this plugin</a> "
+"for custom ordering your %s."
+msgstr ""
+
+#: ../framework/includes/admin/admin-widgets.php:33
+msgctxt "widget image library"
+msgid "Choose Image for Widget"
+msgstr "وزٹ کے لیے تصویر اختیار کیجیے"
+
+#: ../framework/includes/admin/admin-widgets.php:34
+msgctxt "widget image library"
+msgid "Use in Widget"
+msgstr "وجٹ میں استعمال کیجیے"
+
+#: ../framework/includes/admin/admin-widgets.php:35
+msgid "Sorry, this widget is not made for use in this area. Please delete."
+msgstr "معذرت، یہ وجٹ اس جگہ کے لیے نہیں بنایا گیا۔ اس کو دلیٹ کر دیں۔"
+
+#: ../framework/includes/admin/edd-license.php:73
+msgid "<strong>License key could not be activated.</strong>"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:74
+#, php-format
+msgid ""
+"<strong>License Inactive:</strong> <a href=\"%1$s\">Activate Your License "
+"Key</a> to enable updates for the <strong>%2$s</strong> theme."
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:75
+#, php-format
+msgid ""
+"<strong>License Expired:</strong> Renew your <a href=\"%1$s\">License Key</"
+"a> to re-enable updates for the <strong>%2$s</strong> theme (expired on "
+"<strong>%3$s</strong>)."
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:76
+#, php-format
+msgid ""
+"<strong>License Expiring Soon:</strong> Renew your <a href=\"%1$s\">License "
+"Key</a> to continue receiving updates for the <strong>%2$s</strong> theme "
+"(expires on <strong>%3$s</strong>)."
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:332
+msgctxt "license expiration"
+msgid "unknown date"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:358
+#: ../framework/includes/admin/edd-license.php:386
+msgctxt "page title"
+msgid "Theme License"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:359
+msgctxt "menu title"
+msgid "Theme License"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:403
+msgctxt "heading"
+msgid "License Key"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:412
+msgid "License Key"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:425
+msgid "Save Key"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:429
+#: ../framework/includes/admin/edd-license.php:438
+msgid "License Status"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:445
+msgctxt "license key"
+msgid "Active"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:448
+msgid "Expiring Soon"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:453
+msgctxt "license key"
+msgid "Expired"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:457
+msgctxt "license key"
+msgid "Inactive"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:470
+msgid "License Expiration"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:491
+msgid "Deactivate License"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:495
+msgid "Activate License"
+msgstr ""
+
+#: ../framework/includes/admin/edd-license.php:502
+msgid "Renew License"
+msgstr ""
+
+#: ../framework/includes/classes/CTFW_EDD_SL_Theme_Updater.php:73
+#, php-format
+msgid ""
+"Any customizations you have made directly to %s's theme files will be lost. "
+"Please consider using a child theme for modifications."
+msgstr ""
+
+#: ../framework/includes/classes/CTFW_EDD_SL_Theme_Updater.php:90
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\"%4$s>Update Now</a> "
+"or read the <a href=\"%5$s\" target=\"_blank\">Changelog</a>."
+msgstr ""
+
+#: ../framework/includes/classes/breadcrumbs.php:55
+msgctxt "breadcrumb separator"
+msgid " > "
+msgstr " < "
+
+#: ../framework/includes/classes/breadcrumbs.php:241
+msgctxt "breadcrumb year format"
+msgid "Y"
+msgstr ""
+
+#: ../framework/includes/classes/breadcrumbs.php:258
+msgctxt "breadcrumb month format"
+msgid "F"
+msgstr ""
+
+#: ../framework/includes/classes/breadcrumbs.php:275
+msgctxt "breadcrumb day format"
+msgid "jS"
+msgstr ""
+
+#: ../framework/includes/classes/breadcrumbs.php:354
+#, php-format
+msgctxt "breadcrumb"
+msgid "Page %s"
+msgstr "صفحہ نمبر %s"
+
+#: ../framework/includes/classes/breadcrumbs.php:365
+msgctxt "breadcrumb"
+msgid "Search Results"
+msgstr "نتائج بحث"
+
+#: ../framework/includes/classes/breadcrumbs.php:527
+msgctxt "breadcrumbs"
+msgid "Home"
+msgstr "ہوم"
+
+#: ../framework/includes/classes/customize-controls.php:90
+msgctxt "customizer"
+msgid "Presets"
+msgstr ""
+
+#: ../framework/includes/classes/customize-controls.php:113
+msgid "Colorable"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:34
+msgctxt "widget"
+msgid "CT Archives"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:36
+msgid "Monthly archive for chosen post type"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:83
+msgctxt "archives widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-archives.php:92
+msgctxt "archives widget title default"
+msgid "Archives"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:107
+msgctxt "archives widget"
+msgid "Type"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:131
+msgctxt "archives widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:133
+msgctxt "archives widget"
+msgid "Set to 0 for no limit."
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:162
+msgctxt "archives widget"
+msgid "Show counts"
+msgstr "تعداد دیکھایٔں"
+
+#: ../framework/includes/classes/widget-archives.php:183
+msgctxt "archives widget"
+msgid "Show as dropdown"
+msgstr ""
+
+#: ../framework/includes/classes/widget-archives.php:237
+#: ../includes/support-framework.php:412
+msgctxt "archives widget"
+msgid "Blog"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:34
+msgctxt "widget"
+msgid "CT Categories"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:36
+msgid "Shows categories of various types"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:86
+msgctxt "categories widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-categories.php:95
+msgctxt "categories widget title default"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:110
+msgctxt "categories widget"
+msgid "Type"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:134
+msgctxt "categories widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:143
+msgctxt "categories widget order by"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-categories.php:144
+msgctxt "categories widget order by"
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../framework/includes/classes/widget-categories.php:145
+msgctxt "categories widget order by"
+msgid "Post Count"
+msgstr "پوسٹ کی تعداد"
+
+#: ../framework/includes/classes/widget-categories.php:171
+msgctxt "categories widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-categories.php:172
+msgctxt "categories widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-categories.php:189
+msgctxt "categories widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:191
+msgctxt "categories widget"
+msgid "Set to 0 for unlimited."
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:220
+msgctxt "categories widget"
+msgid "Show counts"
+msgstr "توداد دیکھایۓ"
+
+#: ../framework/includes/classes/widget-categories.php:244
+msgctxt "categories widget"
+msgid "Show hierarchy"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:265
+msgctxt "categories widget"
+msgid "Show as dropdown"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:312
+msgctxt "categories widget"
+msgid "Blog Categories"
+msgstr ""
+
+#: ../framework/includes/classes/widget-categories.php:314
+msgctxt "categories widget"
+msgid "Blog Tags"
+msgstr ""
+
+#: ../framework/includes/classes/widget-events.php:32
+msgctxt "events widget"
+msgid "CT Events"
+msgstr ""
+
+#: ../framework/includes/classes/widget-events.php:34
+msgctxt "events widget"
+msgid "Shows upcoming or past events"
+msgstr "آیندہ یا گزشتہ مجالس دیکھاتا ہے"
+
+#: ../framework/includes/classes/widget-events.php:81
+msgctxt "events widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-events.php:90
+msgctxt "events widget title default"
+msgid "Events"
+msgstr "مجالس"
+
+#: ../framework/includes/classes/widget-events.php:114
+msgctxt "events widget order"
+msgid "Upcoming"
+msgstr "آئندہ"
+
+#: ../framework/includes/classes/widget-events.php:115
+msgctxt "events widget order"
+msgid "Past"
+msgstr "گزشتہ"
+
+#: ../framework/includes/classes/widget-events.php:132
+msgctxt "events widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-events.php:160
+#: ../framework/includes/classes/widget-locations.php:187
+msgctxt "events widget"
+msgid "Show image"
+msgstr "تصویر دیکھایۓ"
+
+#: ../framework/includes/classes/widget-events.php:187
+msgctxt "events widget"
+msgid "Show date"
+msgstr "تاریخ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-events.php:208
+msgctxt "events widget"
+msgid "Show time"
+msgstr "وقت دیکھایۓ"
+
+#: ../framework/includes/classes/widget-events.php:232
+msgctxt "events widget"
+msgid "Show excerpt"
+msgstr "اقتباس دیکھایۓ"
+
+#: ../framework/includes/classes/widget-galleries.php:34
+msgctxt "widget"
+msgid "CT Galleries"
+msgstr ""
+
+#: ../framework/includes/classes/widget-galleries.php:36
+msgid "Shows list of gallery pages"
+msgstr "گیلری کے صفحات کی فہرست دیکھیے"
+
+#: ../framework/includes/classes/widget-galleries.php:83
+msgctxt "galleries widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-galleries.php:92
+msgctxt "galleries widget title default"
+msgid "Galleries"
+msgstr "گیلریاں"
+
+#: ../framework/includes/classes/widget-galleries.php:107
+msgctxt "galleries widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-galleries.php:116
+msgctxt "galleries widget order by"
+msgid "Date Added"
+msgstr ""
+
+#: ../framework/includes/classes/widget-galleries.php:117
+msgctxt "galleries widget order by"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-galleries.php:143
+msgctxt "galleries widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-galleries.php:144
+msgctxt "galleries widget order"
+msgid "High to Low"
+msgstr "بڑے س چھوٹا"
+
+#: ../framework/includes/classes/widget-galleries.php:161
+msgctxt "galleries widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-galleries.php:163
+msgctxt "galleries widget"
+msgid "Set to 0 for unlimited."
+msgstr ""
+
+#: ../framework/includes/classes/widget-gallery.php:32
+msgctxt "gallery widget"
+msgid "CT Gallery"
+msgstr ""
+
+#: ../framework/includes/classes/widget-gallery.php:34
+msgid "Shows gallery thumbnails"
+msgstr "گیلری کی چھوٹی تصاویر دیکھاتا ہے"
+
+#: ../framework/includes/classes/widget-gallery.php:56
+msgctxt "gallery widget"
+msgid "All Galleries"
+msgstr "تمام گیلریاں"
+
+#: ../framework/includes/classes/widget-gallery.php:92
+msgctxt "gallery widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-gallery.php:101
+msgctxt "gallery widget title default"
+msgid "Gallery"
+msgstr "گیلری"
+
+#: ../framework/includes/classes/widget-gallery.php:116
+msgctxt "gallery widget"
+msgid "Gallery"
+msgstr "گیلری"
+
+#: ../framework/includes/classes/widget-gallery.php:144
+msgctxt "gallery widget"
+msgid "Show link to gallery"
+msgstr "گیلری کا لنک دیکھایٔں"
+
+#: ../framework/includes/classes/widget-gallery.php:164
+msgctxt "gallery widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-gallery.php:173
+msgctxt "gallery widget order by"
+msgid "Upload Date"
+msgstr "اپ لوڈ کرنے کی تاریخ"
+
+#: ../framework/includes/classes/widget-gallery.php:174
+msgctxt "gallery widget order by"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-gallery.php:175
+msgctxt "gallery widget order by"
+msgid "Comment Count"
+msgstr "تبصروں کی تعداد"
+
+#: ../framework/includes/classes/widget-gallery.php:201
+msgctxt "gallery widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-gallery.php:202
+msgctxt "gallery widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-gallery.php:219
+msgctxt "gallery widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-gallery.php:243
+msgctxt "gallery widget"
+msgid "Thumbnail Size"
+msgstr ""
+
+#: ../framework/includes/classes/widget-gallery.php:252
+msgctxt "gallery widget"
+msgid "Small"
+msgstr "چھوٹا"
+
+#: ../framework/includes/classes/widget-gallery.php:253
+msgctxt "gallery widget"
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: ../framework/includes/classes/widget-gallery.php:254
+msgctxt "gallery widget"
+msgid "Large"
+msgstr "بڑا"
+
+#: ../framework/includes/classes/widget-giving.php:32
+msgctxt "widget"
+msgid "CT Giving"
+msgstr ""
+
+#: ../framework/includes/classes/widget-giving.php:34
+msgid "Shows a message and button"
+msgstr "ایک پیغام اور ایک بٹن دیکھاتا ہے"
+
+#: ../framework/includes/classes/widget-giving.php:81
+msgctxt "giving widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-giving.php:90
+msgctxt "giving widget default title"
+msgid "Giving"
+msgstr "عطیہ"
+
+#: ../framework/includes/classes/widget-giving.php:105
+msgctxt "giving widget"
+msgid "Message"
+msgstr "پیغام"
+
+#: ../framework/includes/classes/widget-giving.php:114
+msgid "You may give online by clicking below."
+msgstr "آپ اس پر کلک کر کے آن لایٔن عطیہ دے سکتے ہیں۔"
+
+#: ../framework/includes/classes/widget-giving.php:129
+msgctxt "giving widget"
+msgid "Button Text"
+msgstr "بٹن کا متن"
+
+#: ../framework/includes/classes/widget-giving.php:138
+msgctxt "giving widget"
+msgid "Give Now"
+msgstr "ابھی دیجیے"
+
+#: ../framework/includes/classes/widget-giving.php:153
+msgctxt "giving widget"
+msgid "Button URL"
+msgstr "بٹن کا یو آر ایل"
+
+#: ../framework/includes/classes/widget-highlight.php:32
+msgctxt "widget"
+msgid "CT Highlight"
+msgstr ""
+
+#: ../framework/includes/classes/widget-highlight.php:34
+msgid "Shows a highlight"
+msgstr ""
+
+#: ../framework/includes/classes/widget-highlight.php:81
+msgctxt "highlight widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-highlight.php:105
+msgctxt "highlight widget"
+msgid "Description"
+msgstr "تفصیل"
+
+#: ../framework/includes/classes/widget-highlight.php:129
+msgctxt "highlight widget"
+msgid "Click URL"
+msgstr ""
+
+#: ../framework/includes/classes/widget-highlight.php:157
+msgctxt "highlight widget"
+msgid "Open in new tab"
+msgstr "نیۓ ٹیب میں کھولیۓ"
+
+#: ../framework/includes/classes/widget-highlight.php:177
+msgctxt "highlight widget"
+msgid "Image"
+msgstr "تصویر"
+
+#: ../framework/includes/classes/widget-locations.php:32
+msgctxt "widget"
+msgid "CT Locations"
+msgstr ""
+
+#: ../framework/includes/classes/widget-locations.php:34
+msgid "Shows church location(s)"
+msgstr ""
+
+#: ../framework/includes/classes/widget-locations.php:81
+msgctxt "locations widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-locations.php:90
+msgctxt "locations widget title default"
+msgid "Locations"
+msgstr "مقامات"
+
+#: ../framework/includes/classes/widget-locations.php:105
+msgctxt "locations widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-locations.php:114
+msgctxt "locations widget order by"
+msgid "Custom Order"
+msgstr ""
+
+#: ../framework/includes/classes/widget-locations.php:115
+msgctxt "locations widget order by"
+msgid "Name"
+msgstr "نام"
+
+#: ../framework/includes/classes/widget-locations.php:141
+msgctxt "locations widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-locations.php:142
+msgctxt "locations widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-locations.php:159
+msgctxt "locations widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-locations.php:211
+msgctxt "locations widget"
+msgid "Show address"
+msgstr "پتہ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-locations.php:235
+msgctxt "locations widget"
+msgid "Show phone number"
+msgstr "فون نمبر دیکھایۓ"
+
+#: ../framework/includes/classes/widget-locations.php:259
+msgctxt "locations widget"
+msgid "Show times"
+msgstr "اوقات دیکھایٔے"
+
+#: ../framework/includes/classes/widget-locations.php:283
+msgctxt "locations widget"
+msgid "Show map"
+msgstr "نقشہ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-people.php:32
+msgctxt "widget"
+msgid "CT People"
+msgstr ""
+
+#: ../framework/includes/classes/widget-people.php:34
+msgid "Shows people according to options"
+msgstr ""
+
+#: ../framework/includes/classes/widget-people.php:81
+msgctxt "people widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-people.php:90
+msgctxt "people widget title default"
+msgid "People"
+msgstr "لوگ"
+
+#: ../framework/includes/classes/widget-people.php:105
+msgctxt "people widget"
+msgid "Group"
+msgstr "گروپ"
+
+#: ../framework/includes/classes/widget-people.php:114
+msgctxt "people widget"
+msgid "All Groups"
+msgstr "تمام گروپ"
+
+#: ../framework/includes/classes/widget-people.php:131
+msgctxt "people widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-people.php:140
+msgctxt "people widget order by"
+msgid "Custom Order"
+msgstr ""
+
+#: ../framework/includes/classes/widget-people.php:141
+msgctxt "people widget order by"
+msgid "Name"
+msgstr "نام"
+
+#: ../framework/includes/classes/widget-people.php:167
+msgctxt "people widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-people.php:168
+msgctxt "people widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-people.php:185
+msgctxt "people widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-people.php:213
+msgctxt "people widget"
+msgid "Show photo"
+msgstr "تصویر دیکھایۓ"
+
+#: ../framework/includes/classes/widget-people.php:237
+msgctxt "people widget"
+msgid "Show position"
+msgstr "جگہ دیکھایٔں"
+
+#: ../framework/includes/classes/widget-people.php:261
+msgctxt "people widget"
+msgid "Show phone"
+msgstr "فون دیکھایۓ"
+
+#: ../framework/includes/classes/widget-people.php:285
+msgctxt "people widget"
+msgid "Show email"
+msgstr "ای میل دیکھایۓ"
+
+#: ../framework/includes/classes/widget-people.php:309
+msgctxt "people widget"
+msgid "Show icons"
+msgstr "آیٔکن دیکھایٔں"
+
+#: ../framework/includes/classes/widget-people.php:333
+#: ../framework/includes/classes/widget-posts.php:288
+msgctxt "posts widget"
+msgid "Show excerpt"
+msgstr "اقتباس دیکھایۓ"
+
+#: ../framework/includes/classes/widget-posts.php:34
+msgctxt "widget"
+msgid "CT Posts"
+msgstr "پوسٹ"
+
+#: ../framework/includes/classes/widget-posts.php:36
+msgid "Shows blog posts according to options"
+msgstr ""
+
+#: ../framework/includes/classes/widget-posts.php:83
+msgctxt "posts widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-posts.php:92
+msgctxt "posts widget title default"
+msgid "Posts"
+msgstr "پوسٹ"
+
+#: ../framework/includes/classes/widget-posts.php:107
+msgctxt "posts widget"
+msgid "Category"
+msgstr "تخصیص"
+
+#: ../framework/includes/classes/widget-posts.php:116
+msgctxt "posts widget"
+msgid "All Categories"
+msgstr "تمام تخصیصات"
+
+#: ../framework/includes/classes/widget-posts.php:133
+msgctxt "posts widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-posts.php:142
+msgctxt "posts widget order by"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-posts.php:143
+msgctxt "posts widget order by"
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../framework/includes/classes/widget-posts.php:144
+msgctxt "posts widget order by"
+msgid "Comment Count"
+msgstr "تبصروں کی تعداد"
+
+#: ../framework/includes/classes/widget-posts.php:170
+msgctxt "posts widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-posts.php:171
+msgctxt "posts widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-posts.php:188
+msgctxt "posts widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-posts.php:216
+msgctxt "posts widget"
+msgid "Show image"
+msgstr "رصویر دیکھایۓ"
+
+#: ../framework/includes/classes/widget-posts.php:243
+msgctxt "posts widget"
+msgid "Show date"
+msgstr "تاریخ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-posts.php:267
+msgctxt "posts widget"
+msgid "Show author"
+msgstr "مضنف دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:32
+msgctxt "widget"
+msgid "CT Sermons"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:34
+msgid "Shows sermons according to options"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:81
+msgctxt "sermons widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-sermons.php:90
+msgctxt "sermons widget title default"
+msgid "Sermons"
+msgstr "بیانات"
+
+#: ../framework/includes/classes/widget-sermons.php:105
+msgctxt "sermons widget"
+msgid "Topic"
+msgstr "موضوع"
+
+#: ../framework/includes/classes/widget-sermons.php:114
+msgctxt "sermons widget"
+msgid "All Topics"
+msgstr "تمام موضوعات"
+
+#: ../framework/includes/classes/widget-sermons.php:131
+msgctxt "sermons widget"
+msgid "Book"
+msgstr "کتاب"
+
+#: ../framework/includes/classes/widget-sermons.php:140
+msgctxt "sermons widget"
+msgid "All Books"
+msgstr "تمام کتابیں"
+
+#: ../framework/includes/classes/widget-sermons.php:157
+msgctxt "sermons widget"
+msgid "Series"
+msgstr "سلسلہ"
+
+#: ../framework/includes/classes/widget-sermons.php:166
+msgctxt "sermons widget"
+msgid "All Series"
+msgstr "تمام سلسلے"
+
+#: ../framework/includes/classes/widget-sermons.php:183
+msgctxt "sermons widget"
+msgid "Speaker"
+msgstr "مبلغ"
+
+#: ../framework/includes/classes/widget-sermons.php:192
+msgctxt "sermons widget"
+msgid "All Speakers"
+msgstr "تمام مبلغین"
+
+#: ../framework/includes/classes/widget-sermons.php:209
+msgctxt "sermons widget"
+msgid "Order By"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:218
+msgctxt "sermons widget order by"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-sermons.php:219
+msgctxt "sermons widget order by"
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../framework/includes/classes/widget-sermons.php:220
+msgctxt "sermons widget order by"
+msgid "Comment Count"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:246
+msgctxt "sermons widget order"
+msgid "Low to High"
+msgstr "چھوٹے سے بڑا"
+
+#: ../framework/includes/classes/widget-sermons.php:247
+msgctxt "sermons widget order"
+msgid "High to Low"
+msgstr "بڑے سے چھوٹا"
+
+#: ../framework/includes/classes/widget-sermons.php:264
+msgctxt "sermons widget"
+msgid "Limit"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:292
+msgctxt "sermons widget"
+msgid "Show image"
+msgstr "تصویر دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:319
+msgctxt "sermons widget"
+msgid "Show date"
+msgstr "تاریخ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:343
+msgctxt "sermons widget"
+msgid "Show topic"
+msgstr "موضوع دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:367
+msgctxt "sermons widget"
+msgid "Show book"
+msgstr "کتاب دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:391
+msgctxt "sermons widget"
+msgid "Show series"
+msgstr "سلسلہ دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:415
+msgctxt "sermons widget"
+msgid "Show speaker"
+msgstr "مبلغ کا نام دیکھایۓ"
+
+#: ../framework/includes/classes/widget-sermons.php:436
+msgctxt "sermons widget"
+msgid "Show media types"
+msgstr ""
+
+#: ../framework/includes/classes/widget-sermons.php:460
+msgctxt "sermons widget"
+msgid "Show excerpt"
+msgstr "اقتباس دیکھایۓ"
+
+#: ../framework/includes/classes/widget-slide.php:33
+msgctxt "widget"
+msgid "CT Slide"
+msgstr ""
+
+#: ../framework/includes/classes/widget-slide.php:35
+msgid "A slide to be shown in a slider"
+msgstr ""
+
+#: ../framework/includes/classes/widget-slide.php:81
+msgctxt "slide widget"
+msgid "Title"
+msgstr "عنوان"
+
+#: ../framework/includes/classes/widget-slide.php:105
+msgctxt "slide widget"
+msgid "Description"
+msgstr "تفصیل"
+
+#: ../framework/includes/classes/widget-slide.php:129
+msgctxt "slide widget"
+msgid "Click URL"
+msgstr ""
+
+#: ../framework/includes/classes/widget-slide.php:157
+msgctxt "slide widget"
+msgid "Open in new tab"
+msgstr "نیۓ ٹیب میں کھولیے"
+
+#: ../framework/includes/classes/widget-slide.php:177
+msgctxt "slide widget"
+msgid "Image"
+msgstr "تصویر"
+
+#: ../framework/includes/classes/widget-slide.php:201
+msgctxt "slide widget"
+msgid "Video URL"
+msgstr "ویڈیو کا یو آر ایل"
+
+#: ../framework/includes/classes/widget.php:297
+msgctxt "widget image field"
+msgid "Choose Image"
+msgstr "تصویر اختیار کیجیے"
+
+#: ../framework/includes/classes/widget.php:300
+msgctxt "widget image field"
+msgid "Remove Image"
+msgstr "تصویر ہٹا دیجیے"
+
+#: ../framework/includes/compatibility.php:61
+#, php-format
+msgid ""
+"<b>Activation Failed:</b> %s requires a newer version of WordPress. Please "
+"update and try again."
+msgstr ""
+
+#: ../framework/includes/compatibility.php:126
+msgid "Go back."
+msgstr "واپس جایۓ"
+
+#: ../framework/includes/compatibility.php:215
+#, php-format
+msgid ""
+"<b>Plugin Required:</b> Please install and activate the <a href=\"%s\" class="
+"\"thickbox\">Church Theme Content</a> plugin to use with the current theme."
+msgstr ""
+
+#: ../framework/includes/compatibility.php:225
+#, php-format
+msgid ""
+"Please <a href=\"%s\">activate</a> the <b>Church Theme Content</b> plugin "
+"required by the current theme."
+msgstr ""
+
+#: ../framework/includes/compatibility.php:293
+msgid ""
+"You are using an outdated version of Internet Explorer. Please upgrade your "
+"browser to use this site."
+msgstr ""
+
+#: ../framework/includes/events.php:118
+#, php-format
+msgid "%s &ndash; %s"
+msgstr "%s &ndash; %s"
+
+#: ../framework/includes/head.php:49
+#, php-format
+msgctxt "head title"
+msgid " (Page %d)"
+msgstr " (صفحہ نمبر %d)"
+
+#: ../framework/includes/head.php:70
+msgctxt "head title"
+msgid " - "
+msgstr " - "
+
+#: ../framework/includes/helpers.php:256 ../framework/includes/helpers.php:277
+msgctxt "shortened text"
+msgid "&hellip;"
+msgstr ""
+
+#: ../framework/includes/images.php:80
+#, php-format
+msgid "The target image size is %s."
+msgstr ""
+
+#: ../framework/includes/maps.php:73
+msgid ""
+"<p><b>Google Map Error:</b> <i>latitude</i> and <i>longitude</i> attributes "
+"are required. See documentation for help.</p>"
+msgstr ""
+
+#: ../framework/includes/mime-types.php:32
+msgctxt "mime type"
+msgid "File"
+msgstr "فائل"
+
+#: ../framework/includes/template-tags.php:49
+msgid "Today"
+msgstr "آج"
+
+#: ../framework/includes/template-tags.php:54
+msgid "Yesterday"
+msgstr "گزشتہ کل"
+
+#: ../header-top-bar.php:142 ../header-top-bar.php:164
+msgctxt "top right items"
+msgid "Today"
+msgstr "آج"
+
+#: ../header-top-bar.php:144
+msgctxt "top right items"
+msgid "Yesterday"
+msgstr "گزشتہ کل"
+
+#: ../header-top-bar.php:166
+msgctxt "top right items"
+msgid "Tomorrow"
+msgstr "آئندہ کل"
+
+#: ../header-top-bar.php:169
+msgctxt "top right items"
+msgid "F j"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:58
+msgid "Options"
+msgstr "اختیارات"
+
+#: ../includes/admin/meta-boxes.php:70
+msgid "Banner"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:74
+msgid "Do not show text over featured image"
+msgstr "اس تصویر کے اوپر لکھایٔی نہ دیکھایٔں"
+
+#: ../includes/admin/meta-boxes.php:95
+msgid ""
+"Example: Sermons template used. This page's banner shows on all sermon pages."
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:97
+msgid "Show banner on related content"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:118
+msgctxt "meta box"
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:122
+#, php-format
+msgid "Hide sidebar <a href=\"%s\" target=\"_blank\">widgets</a>"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:141
+msgctxt "meta box"
+msgid "Gallery"
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:143
+msgid "Applies only when gallery used in content."
+msgstr ""
+
+#: ../includes/admin/meta-boxes.php:145
+msgid "Exclude from gallery widgets/templates"
+msgstr ""
+
+#: ../includes/customize-defaults.php:186
+msgid ""
+"&copy; [ctcom_current_year] [ctcom_site_name]. Powered by <a href=\"http://"
+"churchthemes.com\" target=\"_blank\" rel=\"nofollow\">churchthemes.com</a>."
+msgstr ""
+
+#: ../includes/customize-defaults.php:196
+msgid ""
+"http://facebook.com\n"
+"http://twitter.com\n"
+"[ctcom_rss_url]\n"
+"http://www.apple.com/itunes/"
+msgstr ""
+
+#: ../includes/customize-defaults.php:202
+msgid ""
+"http://facebook.com\n"
+"http://twitter.com\n"
+"https://plus.google.com\n"
+"http://vimeo.com\n"
+"http://instagram.com"
+msgstr ""
+
+#: ../includes/customize.php:34
+msgid "Don't move"
+msgstr "نہ ہلایۓ"
+
+#: ../includes/customize.php:37
+#, php-format
+msgid "%d pixels right"
+msgstr "%d پکسل دایٔں جانب کی صرف"
+
+#: ../includes/customize.php:38
+#, php-format
+msgid "%d pixels left"
+msgstr "%d پکسل بایٔں جانب کی طرف"
+
+#: ../includes/customize.php:54
+msgctxt "customizer"
+msgid "Upcoming Events"
+msgstr "آیٔندہ مجالس"
+
+#: ../includes/customize.php:55
+msgctxt "customizer"
+msgid "Latest Sermons"
+msgstr "تازہ بیانات"
+
+#: ../includes/customize.php:56
+msgctxt "customizer"
+msgid "Latest Posts"
+msgstr "تازہ پوسٹ"
+
+#: ../includes/customize.php:57 ../includes/customize.php:129
+msgctxt "customizer"
+msgid "Tagline"
+msgstr "ٹیگ لایٔن"
+
+#: ../includes/customize.php:58 ../includes/customize.php:130
+msgctxt "customizer"
+msgid "Custom Content"
+msgstr ""
+
+#: ../includes/customize.php:59 ../includes/customize.php:131
+msgctxt "customizer"
+msgid "Nothing"
+msgstr "کچھ نہیں"
+
+#: ../includes/customize.php:75
+msgctxt "customizer header items"
+msgid "One"
+msgstr "ایک"
+
+#: ../includes/customize.php:76
+msgctxt "customizer header items"
+msgid "Two"
+msgstr "دو"
+
+#: ../includes/customize.php:92
+msgctxt "customizer"
+msgid "Image"
+msgstr "تصویر"
+
+#: ../includes/customize.php:93
+msgctxt "customizer"
+msgid "Text"
+msgstr "متن"
+
+#: ../includes/customize.php:109
+msgctxt "customizer"
+msgid "Extra Small"
+msgstr "بہت چھوٹا"
+
+#: ../includes/customize.php:110
+msgctxt "customizer"
+msgid "Small"
+msgstr "چھوٹا"
+
+#: ../includes/customize.php:111
+msgctxt "customizer"
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: ../includes/customize.php:112
+msgctxt "customizer"
+msgid "Large"
+msgstr "بڑا"
+
+#: ../includes/customize.php:113
+msgctxt "customizer"
+msgid "Extra Large"
+msgstr "بہت بڑا"
+
+#: ../includes/customize.php:170
+msgid "Colors & Styling"
+msgstr ""
+
+#: ../includes/customize.php:182
+msgid "Color Scheme"
+msgstr ""
+
+#: ../includes/customize.php:199
+msgid "Main Color"
+msgstr ""
+
+#: ../includes/customize.php:214
+msgid "Link Color"
+msgstr ""
+
+#: ../includes/customize.php:228
+msgid "Rounded Corners"
+msgstr "گول کونے"
+
+#: ../includes/customize.php:238
+msgctxt "customizer"
+msgid "Google Fonts"
+msgstr ""
+
+#: ../includes/customize.php:253
+msgid "Logo Font"
+msgstr ""
+
+#: ../includes/customize.php:273
+msgid "Tagline Font"
+msgstr ""
+
+#: ../includes/customize.php:293
+msgid "Menu Font"
+msgstr ""
+
+#: ../includes/customize.php:313
+msgid "Heading Font"
+msgstr ""
+
+#: ../includes/customize.php:333
+msgid "Body Font"
+msgstr ""
+
+#: ../includes/customize.php:352
+msgid "Character Sets"
+msgstr ""
+
+#: ../includes/customize.php:362
+msgctxt "customizer"
+msgid "Top Bar"
+msgstr ""
+
+#: ../includes/customize.php:376
+msgid "Search Icon"
+msgstr "ڈھونڈنے کا آیٔکن"
+
+#: ../includes/customize.php:391
+msgctxt "customizer"
+msgid "Top Right"
+msgstr ""
+
+#: ../includes/customize.php:407
+msgctxt "customizer"
+msgid "Items on Right"
+msgstr ""
+
+#: ../includes/customize.php:423 ../includes/customize.php:612
+msgid "Custom Content"
+msgstr ""
+
+#: ../includes/customize.php:433
+msgctxt "customizer"
+msgid "Logo & Tagline"
+msgstr ""
+
+#: ../includes/customize.php:447
+msgctxt "customizer"
+msgid "Logo Type"
+msgstr ""
+
+#: ../includes/customize.php:463
+msgctxt "customizer"
+msgid "Logo Image"
+msgstr ""
+
+#: ../includes/customize.php:477
+msgctxt "customizer"
+msgid "HiDPI Logo (Optional)"
+msgstr ""
+
+#: ../includes/customize.php:494
+msgid "Move Logo"
+msgstr "لوگو ہلایٔں"
+
+#: ../includes/customize.php:510
+msgid "Logo Text"
+msgstr "لوگو کا متن"
+
+#: ../includes/customize.php:525
+msgid "Show in lowercase"
+msgstr ""
+
+#: ../includes/customize.php:540
+msgctxt "customizer"
+msgid "Logo Text Size"
+msgstr "لوگو کے متن کا سائز"
+
+#: ../includes/customize.php:563
+msgid "Show tagline under logo"
+msgstr "لوگو کے نیچے ٹیگ لایٔن دیکھایۓ"
+
+#: ../includes/customize.php:580
+msgid "Move Tagline"
+msgstr "ٹیگ لایٔن کو ہلایۓ"
+
+#: ../includes/customize.php:596
+msgctxt "customizer"
+msgid "Right of Logo"
+msgstr "لوگو کی دایٔں جانب"
+
+#: ../includes/customize.php:622
+msgctxt "customizer"
+msgid "Footer Content"
+msgstr ""
+
+#: ../includes/customize.php:636
+msgctxt "customizer"
+msgid "Show Location"
+msgstr "مقام دیکھایۓ"
+
+#: ../includes/customize.php:651
+msgctxt "customizer"
+msgid "Notice"
+msgstr ""
+
+#: ../includes/customize.php:662
+msgctxt "customizer"
+msgid "Social Media Icons"
+msgstr ""
+
+#: ../includes/customize.php:676
+msgid "Header URLs"
+msgstr ""
+
+#: ../includes/customize.php:688
+#, php-format
+msgid ""
+"Enter one URL per line for %s. Use <code>[ctcom_rss_url]</code> for RSS."
+msgstr ""
+
+#: ../includes/customize.php:703
+msgid "Footer URLs"
+msgstr ""
+
+#: ../includes/customize.php:724
+msgid "Show breadcrumb path on subpages"
+msgstr ""
+
+#: ../includes/customize.php:741
+msgctxt "customizer"
+msgid "Homepage Slider"
+msgstr ""
+
+#: ../includes/customize.php:755
+msgid "Automatically transition to next slide"
+msgstr ""
+
+#: ../includes/customize.php:770
+msgid "Seconds Between Transitions"
+msgstr ""
+
+#: ../includes/enqueue-scripts.php:74
+msgctxt "menu dropdown"
+msgid "Menu"
+msgstr ""
+
+#: ../includes/enqueue-scripts.php:79 ../includes/enqueue-scripts.php:80
+msgid "Required"
+msgstr "ضروری ہے"
+
+#: ../includes/enqueue-scripts.php:81
+msgid "Invalid Email"
+msgstr "ای میل غلط ہے"
+
+#: ../includes/enqueue-scripts.php:82
+msgid "Invalid URL"
+msgstr "یو آر ایل غلط ہے"
+
+#: ../includes/enqueue-scripts.php:83
+msgid "Comment Required"
+msgstr "تبصرہ مطلوب ہے"
+
+#: ../includes/icons.php:200
+msgctxt "social icons list"
+msgid ", "
+msgstr "، "
+
+#: ../includes/icons.php:203
+msgctxt "social icons list"
+msgid " or "
+msgstr " یا "
+
+#: ../includes/icons.php:205
+msgctxt "social icons list"
+msgid " and "
+msgstr " اور "
+
+#: ../includes/nav-menus.php:28
+msgctxt "menu location"
+msgid "Top"
+msgstr ""
+
+#: ../includes/nav-menus.php:31
+msgctxt "menu location"
+msgid "Header"
+msgstr ""
+
+#: ../includes/nav-menus.php:34
+msgctxt "menu location"
+msgid "Footer"
+msgstr ""
+
+#: ../includes/sidebars.php:33
+msgctxt "widget area"
+msgid "Homepage Slider"
+msgstr ""
+
+#: ../includes/sidebars.php:34
+msgid "Add CT Slide widgets to show in the homepage slider."
+msgstr ""
+
+#: ../includes/sidebars.php:44
+msgctxt "widget area"
+msgid "Homepage Highlights"
+msgstr ""
+
+#: ../includes/sidebars.php:45
+msgid ""
+"Add CT Highlight widgets to show on the homepage under the slider and intro."
+msgstr ""
+
+#: ../includes/sidebars.php:55
+msgctxt "widget area"
+msgid "Homepage Bottom Left"
+msgstr ""
+
+#: ../includes/sidebars.php:56
+msgid "These show at the bottom-left of the homepage."
+msgstr "یہ ہوم پیج کے نچلے بایٔں کونے میں نظر آتے ہین۔"
+
+#: ../includes/sidebars.php:66
+msgctxt "widget area"
+msgid "Homepage Bottom Right"
+msgstr ""
+
+#: ../includes/sidebars.php:67
+msgid "These show at the bottom-right of the homepage."
+msgstr "یہ ہوم پیج کے نچلے دایٔں کونے میں نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:77
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:79
+msgid "These widgets show on the side of pages using the default template."
+msgstr "یہ وجٹ ان صفحات کی جانب پر نظر آتے ہیں جو ڈیفالٹ ٹیمپلیٹ پر ہوں۔"
+
+#: ../includes/sidebars.php:91
+msgid "Sermons Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:92
+msgid "These widgets show on the side of sermon pages."
+msgstr "یہ وجٹ بیانات کے صفحے کی جانب پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:102
+msgid "Events Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:103
+msgid "These widgets show on the side of event pages."
+msgstr "یہ وجٹ مجالس کے صفحے کی جانب پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:113
+msgid "People Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:114
+msgid "These widgets show on the side of people pages."
+msgstr "یہ وجٹ لوگوں کے صفحے کی جانب پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:124
+msgid "Locations Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:125
+msgid "These widgets show on the side of locations content."
+msgstr "یہ وجٹ مقامات کے صفحے کی جانب پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:135
+msgid "Gallery Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:136
+msgid "These widgets show on the side of gallery pages."
+msgstr "یہ وجٹ گیلری کے صفحے کی جانب پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:146
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:147
+msgid "These widgets show on the side of blog content."
+msgstr "یہ وجٹ بلاگ کے مواد کے کنارے پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:157
+msgid "Contact Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:158
+msgid "These widgets show on the side of the contact page."
+msgstr "یہ وجٹ رابطے کے صفحے کے کنارے پر نظر آتے ہیں۔"
+
+#: ../includes/sidebars.php:168
+msgid "Search Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:169
+msgid "These widgets show on the side of search results."
+msgstr "یہ وجٹ نتایٔج بحث کے کنارے پر نظر آتے ہیں۔"
+
+#: ../includes/support-ctc.php:108
+#, php-format
+msgid "Enter one URL per line for %s."
+msgstr ""
+
+#: ../includes/support-ctc.php:111
+#, php-format
+msgid ""
+"The WordPress <a href=\"%s\" target=\"_blank\">antispambot</a> function is "
+"used to help deter automated email harvesting."
+msgstr ""
+
+#: ../includes/support-framework.php:41
+#, php-format
+msgid ""
+"<b>Next Steps:</b> Please continue reading the <a href=\"%s\" target=\"_blank"
+"\">Getting Started</a> guide for the next steps after theme activation."
+msgstr ""
+
+#: ../includes/support-framework.php:53
+#, php-format
+msgid ""
+"Please activate your license key to enable one-click theme updates and to "
+"get support from <a href=\"%1$s\" target=\"_blank\">churchthemes.com</a> for "
+"this site. Read <a href=\"%2$s\" target=\"_blank\">License Keys</a> for more "
+"information."
+msgstr ""
+
+#: ../includes/support-framework.php:58
+#, php-format
+msgid ""
+"<b>License key could not be activated.</b> Read the <a href=\"%1$s\" target="
+"\"_blank\">License Keys</a> guide for help."
+msgstr ""
+
+#: ../includes/support-framework.php:61
+#, php-format
+msgid ""
+"<strong>License Expired:</strong> <a href=\"%4$s\" target=\"_blank\">Renew</"
+"a> your <a href=\"%1$s\">License Key</a> to re-enable updates and support "
+"for the <strong>%2$s</strong> theme (expired on <strong>%3$s</strong>). <a "
+"href=\"%5$s\" target=\"_blank\">Learn More</a>"
+msgstr ""
+
+#: ../includes/support-framework.php:62
+#, php-format
+msgid ""
+"<strong>License Expiring Soon:</strong> <a href=\"%4$s\" target=\"_blank"
+"\">Renew</a> your <a href=\"%1$s\">License Key</a> to continue receiving "
+"updates and support for the <strong>%2$s</strong> theme (expires on <strong>"
+"%3$s</strong>). <a href=\"%5$s\" target=\"_blank\">Learn More</a>"
+msgstr ""
+
+#: ../includes/support-framework.php:76
+msgid "Email"
+msgstr "ای میل"
+
+#: ../includes/support-framework.php:77
+msgid "Courriel"
+msgstr ""
+
+#: ../includes/support-framework.php:153
+#, php-format
+msgid ""
+"Optionally provide an image that is at least %s (it will be cropped/"
+"resized). An image exactly this size is ideal."
+msgstr ""
+
+#: ../includes/support-framework.php:413
+msgctxt "archives widget"
+msgid "Sermons"
+msgstr "بیانات"
+
+#: ../includes/support-framework.php:442
+msgctxt "slide widget image"
+msgid "(Required)"
+msgstr "(ضروری ہے)"
+
+#: ../includes/support-framework.php:443 ../includes/support-framework.php:462
+#, php-format
+msgid "Image cropped to %s."
+msgstr ""
+
+#: ../includes/support-framework.php:446
+msgid ""
+"To make this a video slide, enter a YouTube or Vimeo video page URL. Note: "
+"Click URL has no effect when video is used."
+msgstr ""
+
+#: ../includes/template-tags.php:67
+#, php-format
+msgid "%s <span>(Page %d)</span>"
+msgstr "%s <span>(صفحہ نمبر %d)</span>"
+
+#: ../includes/template-tags.php:203
+msgid "0 Comments"
+msgstr "0 تبصرے"
+
+#: ../includes/template-tags.php:204
+msgid "1 Comment"
+msgstr "ایک تبصرہ"
+
+#: ../includes/template-tags.php:205
+msgid "% Comments"
+msgstr "% تطصرے"
+
+#: ../loop-author.php:37
+msgid "More Posts"
+msgstr "مزید پوسٹ"
+
+#: ../loop-author.php:41
+#, php-format
+msgctxt "author box"
+msgid "About %s"
+msgstr "%s کے بارے میں"
+
+#: ../loop-header.php:48
+#, php-format
+msgid "'%s' Tagged Posts"
+msgstr "'%s' کے ٹیگ والے پوسٹ"
+
+#: ../loop-header.php:64
+#, php-format
+msgctxt "sermon topic"
+msgid "Sermons on %s"
+msgstr "%s پر بیانات"
+
+#: ../loop-header.php:66
+#, php-format
+msgctxt "sermon book"
+msgid "Sermons on %s"
+msgstr "%s پر بیانات"
+
+#: ../loop-header.php:68
+#, php-format
+msgid "Sermons by %s"
+msgstr "%s کے بیانات"
+
+#: ../loop-header.php:70
+#, php-format
+msgid "'%s' Tagged Sermons"
+msgstr "'%s' کے ٹیگ والے بیانات"
+
+#: ../loop-header.php:90
+#, php-format
+msgid "Posts by %s"
+msgstr "%s نۓ پوسٹ"
+
+#: ../loop-header.php:107
+#, php-format
+msgid "Search results for '%s'"
+msgstr "'%s' کے نتائج بحث"
+
+#: ../loop-header.php:112
+#, php-format
+msgid "There is %d match for %s."
+msgid_plural "There are %d matches for %s."
+msgstr[0] ""
+msgstr[1] "%s کے %d نتیجے ہں۔"
+
+#: ../loop-header.php:130
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../loop-header.php:132
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../loop-header.php:139
+#, php-format
+msgid "Posts from %s"
+msgstr "%s کے پوسٹ"
+
+#: ../loop-header.php:141
+#, php-format
+msgid "Sermons from %s"
+msgstr "%s کے بیانات"
+
+#: ../loop-header.php:171
+msgid "Archives"
+msgstr ""
+
+#: ../loop-header.php:177
+msgid "Not Found"
+msgstr "نہ ملا"
+
+#: ../loop-header.php:180
+msgid "Sorry, the page or file you tried to access was not found."
+msgstr "معزرت, آپ نے جس صفحہ یا فایل پر جانے کی کوشش کی وہ نہ ملی۔"
+
+#: ../loop-navigation.php:27
+#, php-format
+msgid " %s Back to %s"
+msgstr " %s واپس %s"
+
+#: ../loop-navigation.php:62
+#, php-format
+msgctxt "previous post link"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: ../loop-navigation.php:71
+#, php-format
+msgctxt "next post link"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: ../loop-navigation.php:105
+#, php-format
+msgctxt "pagination"
+msgid "%s Previous"
+msgstr "%s پچھلا صفحہ"
+
+#: ../loop-navigation.php:106
+#, php-format
+msgctxt "pagination"
+msgid "Next %s"
+msgstr "اگلا صفحہ %s"
+
+#: ../page-templates/galleries.php:61
+#, php-format
+msgid "1 Photo"
+msgid_plural "%d Photos"
+msgstr[0] "ایک تصویر"
+msgstr[1] "%d تصاویر"
+
+#: ../searchform.php:15
+msgid "Search"
+msgstr "ڈھونڈیے"
+
+#: ../widget-templates/widget-archives.php:38
+#, php-format
+msgctxt "archives widget"
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: ../widget-templates/widget-archives.php:59
+msgctxt "archives widget"
+msgid "Select Month"
+msgstr "مہینہ اختیار کیجیے"
+
+#: ../widget-templates/widget-categories.php:39
+msgctxt "categories widget"
+msgid "Select One"
+msgstr "کوئ ایک اختیار کیجیے"
+
+#: ../widget-templates/widget-events.php:102
+msgctxt "events widget"
+msgid "There are no events to show."
+msgstr "کویٔ مجالس نہیں ہیں۔"
+
+#: ../widget-templates/widget-galleries.php:61
+msgctxt "galleries widget"
+msgid "There are no galleries to show."
+msgstr "کویٔ گیلریاں نہیں ہیں۔۔"
+
+#: ../widget-templates/widget-gallery.php:63
+msgctxt "gallery widget"
+msgid "View Gallery"
+msgstr "گیلری دیکھیے"
+
+#: ../widget-templates/widget-gallery.php:74
+msgctxt "gallery widget"
+msgid "There are no images to show."
+msgstr "کویٔ تصاویر نہیں ہیں۔"
+
+#: ../widget-templates/widget-locations.php:148
+msgctxt "locations widget"
+msgid "There are no locations to show."
+msgstr "کویٔ مقامات نہیں ہیں۔"
+
+#: ../widget-templates/widget-people.php:114
+msgctxt "people widget"
+msgid "There are no people to show."
+msgstr "کویٔ لوگ نہیں ہیں۔"
+
+#: ../widget-templates/widget-posts.php:85
+#, php-format
+msgctxt "posts widget"
+msgid "by <a href=\"%1$s\">%2$s</a>"
+msgstr "<a href=\"%1$s\">%2$s</a> کی طرف سے"
+
+#: ../widget-templates/widget-posts.php:115
+msgctxt "posts widget"
+msgid "There are no posts to show."
+msgstr "کویٔ پوسٹ نہیں ہے۔"
+
+#: ../widget-templates/widget-sermons.php:81
+#, php-format
+msgctxt "widget"
+msgid "by %s"
+msgstr "%s کا"
+
+#: ../widget-templates/widget-sermons.php:110
+msgctxt "sermons widget"
+msgid "Read Online"
+msgstr "آن لایٔن پڑھیں"
+
+#: ../widget-templates/widget-sermons.php:114
+msgctxt "sermons widget"
+msgid "Watch Video"
+msgstr "ویڈیو دیکھیں"
+
+#: ../widget-templates/widget-sermons.php:118
+msgctxt "sermons widget"
+msgid "Listen to Audio"
+msgstr "رکارڈنگ سنیں"
+
+#: ../widget-templates/widget-sermons.php:122
+msgctxt "sermons widget"
+msgid "Download PDF"
+msgstr "پی ڈی ایف ڈاؤن لوڈ کریں"
+
+#: ../widget-templates/widget-sermons.php:153
+msgctxt "sermons widget"
+msgid "There are no sermons to show."
+msgstr "کویٔ بیان نہیں ہے۔"
