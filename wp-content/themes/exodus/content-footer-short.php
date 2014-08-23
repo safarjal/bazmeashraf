@@ -39,9 +39,9 @@ $post_type = get_post_type();
 			<a href="<?php the_permalink(); ?>">
 				<?php if ( $has_full_text ) : ?>
 					<span class="exodus-button-icon <?php exodus_icon_class( 'read' ); ?>"></span>
-					<?php _e( 'پڑھیے', 'exodus' ); ?>
+					<?php _e( 'Read', 'exodus' ); ?>
 				<?php else : ?>
-					<?php _ex( 'تفصیلات', 'sermon button', 'exodus' ); ?>
+					<?php _ex( 'Details', 'sermon button', 'exodus' ); ?>
 				<?php endif; ?>
 			</a>
 		</li><?php
@@ -50,7 +50,7 @@ $post_type = get_post_type();
 			?><li>
 				<a href="<?php echo esc_url( $video_player ? add_query_arg( 'player', 'video', get_permalink() ) : get_permalink() ); ?>">
 					<span class="exodus-button-icon <?php exodus_icon_class( 'video-play' ); ?>"></span>
-					<?php _e( 'دیکھیے', 'exodus' ); ?>
+					<?php _e( 'Watch', 'exodus' ); ?>
 				</a>
 			</li><?php
 		endif;
@@ -59,7 +59,7 @@ $post_type = get_post_type();
 			?><li>
 				<a href="<?php echo esc_url( $audio_player ? add_query_arg( 'player', 'audio', get_permalink() ) : get_permalink() ); ?>">
 					<span class="exodus-button-icon <?php exodus_icon_class( 'audio-play' ); ?>"></span>
-					<?php _e( 'سنیے', 'exodus' ); ?>
+					<?php _e( 'Listen', 'exodus' ); ?>
 				</a>
 			</li><?php
 		endif;
@@ -68,7 +68,7 @@ $post_type = get_post_type();
 			?><li>
 				<a href="<?php echo esc_url( $pdf_download_url ); ?>" title="<?php echo esc_attr( __( 'Download PDF', 'exodus' ) ); ?>">
 					<span class="exodus-button-icon <?php exodus_icon_class( 'pdf-download' ); ?>"></span>
-					<?php _e( 'ڈاؤنلوڈ کریں', 'exodus' ); ?>
+					<?php _e( 'PDF', 'exodus' ); ?>
 				</a>
 			</li><?php
 		endif;
@@ -88,12 +88,12 @@ $post_type = get_post_type();
 	?>
 	<ul class="exodus-entry-footer-item exodus-list-buttons">
 
-		<li><a href="<?php the_permalink(); ?>"><?php _e( 'تفصیلات', 'exodus' ); ?></a></li><?php
+		<li><a href="<?php the_permalink(); ?>"><?php _e( 'Location Details', 'exodus' ); ?></a></li><?php
 
 		// Make sure there is no whitespace between items since they are inline-block
 
 		if ( $directions_url ) :
-			?><li><a href="<?php echo esc_url( $directions_url ); ?>" target="_blank"><span class="exodus-button-icon <?php exodus_icon_class( 'location-directions' ); ?>"></span><?php _e( 'ہدایات', 'exodus' ); ?></a></li><?php
+			?><li><a href="<?php echo esc_url( $directions_url ); ?>" target="_blank"><span class="exodus-button-icon <?php exodus_icon_class( 'location-directions' ); ?>"></span><?php _e( 'Directions', 'exodus' ); ?></a></li><?php
 		endif;
 
 		?>
@@ -111,12 +111,12 @@ $post_type = get_post_type();
 	?>
 	<ul class="exodus-entry-footer-item exodus-list-buttons">
 
-		<li><a href="<?php the_permalink(); ?>"><?php _e( 'تفصیلات', 'exodus' ); ?></a></li><?php
+		<li><a href="<?php the_permalink(); ?>"><?php _e( 'Event Details', 'exodus' ); ?></a></li><?php
 
 		// Make sure there is no whitespace between items since they are inline-block
 
 		if ( $directions_url ) :
-			?><li><a href="<?php echo esc_url( $directions_url ); ?>" target="_blank"><span class="exodus-button-icon <?php exodus_icon_class( 'event-directions' ); ?>"></span><?php _e( 'ہدایات', 'exodus' ); ?></a></li><?php
+			?><li><a href="<?php echo esc_url( $directions_url ); ?>" target="_blank"><span class="exodus-button-icon <?php exodus_icon_class( 'event-directions' ); ?>"></span><?php _e( 'Directions', 'exodus' ); ?></a></li><?php
 		endif;
 
 		?>
@@ -130,7 +130,7 @@ $post_type = get_post_type();
 
 		<?php if ( ctfw_has_content() ) : // show only if has bio content ?>
 			<ul class="exodus-entry-footer-item exodus-list-buttons">
-				<li><a href="<?php the_permalink(); ?>"><?php _e( 'سوانح پڑھیں', 'exodus' ); ?></a></li>
+				<li><a href="<?php the_permalink(); ?>"><?php _e( 'Read Biography', 'exodus' ); ?></a></li>
 			</ul>
 		<?php endif; ?>
 

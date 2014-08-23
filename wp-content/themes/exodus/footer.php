@@ -170,14 +170,14 @@ $classes = array();
 
 									<ul id="exodus-footer-top-buttons">
 
-										<li><a href="<?php echo esc_url( get_permalink( $location['ID'] ) ); ?>" id="exodus-footer-button-more" class="exodus-button"><?php _ex( 'مزید معلومات', 'footer', 'exodus' ); ?></a></li>
+										<li><a href="<?php echo esc_url( get_permalink( $location['ID'] ) ); ?>" id="exodus-footer-button-more" class="exodus-button"><?php _ex( 'More Info', 'footer', 'exodus' ); ?></a></li>
 
 										<?php if ( ! empty( $directions_url ) ) : ?>
-											<li><a href="<?php echo esc_url( $directions_url ); ?>" id="exodus-footer-button-directions" class="exodus-button" target="_blank"><?php _ex( 'ہدایات', 'footer', 'exodus' ); ?></a></li>
+											<li><a href="<?php echo esc_url( $directions_url ); ?>" id="exodus-footer-button-directions" class="exodus-button" target="_blank"><?php _ex( 'Directions', 'footer', 'exodus' ); ?></a></li>
 										<?php endif; ?>
 
 										<?php if ( $location_count > 1 && isset( $locations_page->ID ) ) : // show link if have Locations page and more than one location ?>
-											<li><a href="<?php echo esc_url( get_permalink( $locations_page->ID ) ); ?>" id="exodus-footer-button-locations" class="exodus-button"><?php _ex( 'تمام مقامات', 'footer', 'exodus' ); ?></a></li>
+											<li><a href="<?php echo esc_url( get_permalink( $locations_page->ID ) ); ?>" id="exodus-footer-button-locations" class="exodus-button"><?php _ex( 'All Locations', 'footer', 'exodus' ); ?></a></li>
 										<?php endif; ?>
 
 									</ul>

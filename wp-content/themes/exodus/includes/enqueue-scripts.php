@@ -76,11 +76,11 @@ function exodus_enqueue_scripts() {
 		'slider_speed'						=> absint( ctfw_customization( 'slider_speed' ) * 1000 ), // convert seconds to milliseconds
 		'comment_name_required'				=> get_option('require_name_email'), // name and email required on comments? (WP Admin: Settings > Discussion)
 		'comment_email_required'			=> get_option('require_name_email'),
-		'comment_name_error_required'		=> __( 'ضروری', 'exodus' ), // translatable string for comment form validation
-		'comment_email_error_required'		=> __( 'ضروری', 'exodus' ),
-		'comment_email_error_invalid'		=> __( 'ای میل غلط ہے', 'exodus' ),
-		'comment_url_error_invalid'			=> __( 'یو آر ایل غلط ہے', 'exodus' ),
-		'comment_message_error_required'	=> __( 'تبصرے کی ضرورت ہے', 'exodus' )
+		'comment_name_error_required'		=> __( 'Required', 'exodus' ), // translatable string for comment form validation
+		'comment_email_error_required'		=> __( 'Required', 'exodus' ),
+		'comment_email_error_invalid'		=> __( 'Invalid Email', 'exodus' ),
+		'comment_url_error_invalid'			=> __( 'Invalid URL', 'exodus' ),
+		'comment_message_error_required'	=> __( 'Comment Required', 'exodus' )
 	));
 
 }

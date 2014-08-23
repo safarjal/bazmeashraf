@@ -41,7 +41,7 @@ if ( ! have_comments() && ! comments_open() ) {
 		<h1 id="exodus-comments-title" class="exodus-main-title">
 			<?php
 			printf(
-				_n( 'ایک تبصرہ', '%1$s تبصرے', get_comments_number(), 'exodus' ), // title for 1 comment, title for 2+ comments
+				_n( 'One Comment', '%1$s Comments', get_comments_number(), 'exodus' ), // title for 1 comment, title for 2+ comments
 				number_format_i18n( get_comments_number() )
 			);
 			?>
@@ -65,8 +65,8 @@ if ( ! have_comments() && ! comments_open() ) {
 			if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
 			?>
 				<nav class="exodus-nav-left-right exodus-clearfix" id="exodus-comment-nav">
-					<div class="exodus-nav-left"><?php previous_comments_link( sprintf( __( ' %s پرانے تبصرے', 'exodus' ), '<span class="exodus-button-icon ' . exodus_get_icon_class( 'nav-left' ) . '"></span>' ) ); ?></div>
-					<div class="exodus-nav-right"><?php next_comments_link( sprintf( __( 'نیۓ تبصرے %s', 'exodus' ), '<span class="exodus-button-icon ' . exodus_get_icon_class( 'nav-right' ) . '"></span>' ) ); ?></div>
+					<div class="exodus-nav-left"><?php previous_comments_link( sprintf( __( ' %s Older Comments', 'exodus' ), '<span class="exodus-button-icon ' . exodus_get_icon_class( 'nav-left' ) . '"></span>' ) ); ?></div>
+					<div class="exodus-nav-right"><?php next_comments_link( sprintf( __( 'Newer Comments %s', 'exodus' ), '<span class="exodus-button-icon ' . exodus_get_icon_class( 'nav-right' ) . '"></span>' ) ); ?></div>
 				</nav>
 			<?php endif; ?>
 
@@ -80,10 +80,10 @@ if ( ! have_comments() && ! comments_open() ) {
 			<?php
 			// Show form
 			comment_form( array(
-				'title_reply'			=> _x( 'تبصرہ ڈالیے', 'comment form', 'exodus' ),
-				'title_reply_to'		=> __( '%s کو جواب دیجیے', 'exodus' ),
-				'cancel_reply_link'		=> _x( 'منسوخ کریں', 'comment form', 'exodus' ),
-				'label_submit'			=> _x( 'تبصرہ ڈالیں', 'comment form', 'exodus' )
+				'title_reply'			=> _x( 'Add a Comment', 'comment form', 'exodus' ),
+				'title_reply_to'		=> __( 'Add a Reply to %s', 'exodus' ),
+				'cancel_reply_link'		=> _x( 'Cancel', 'comment form', 'exodus' ),
+				'label_submit'			=> _x( 'Add Comment', 'comment form', 'exodus' )
 			) );
 			?>
 
@@ -93,7 +93,7 @@ if ( ! have_comments() && ! comments_open() ) {
 		?>
 
 		<p id="exodus-comments-closed">
-			<?php _e( 'اس پوسٹ پر تبصرے بند کر دیے گیۓ ہیں', 'exodus' ); // Show message if comments closed ?>
+			<?php _e( 'Commenting has been turned off.', 'exodus' ); // Show message if comments closed ?>
 		</p>
 
 		<?php endif; ?>

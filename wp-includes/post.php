@@ -1507,7 +1507,7 @@ function _post_type_meta_capabilities( $capabilities = null ) {
  */
 function get_post_type_labels( $post_type_object ) {
 	$nohier_vs_hier_defaults = array(
-		'name' => array( _x('پوسٹس', 'پوس type general name'), _x('صفحات', 'post type general name') ),
+		'name' => array( _x('پوسٹس', 'post type general name'), _x('صفحات', 'post type general name') ),
 		'singular_name' => array( _x('پوسٹ', 'post type singular name'), _x('صفحہ', 'post type singular name') ),
 		'add_new' => array( _x('نیا ڈالیے', 'post'), _x('نیا ڈالیے', 'page') ),
 		'add_new_item' => array( __('نیا پوسٹ ڈالیے'), __('نیا صفحہ ڈالیے') ),

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Exodus\n"
 "POT-Creation-Date: 2014-06-04 18:03-0600\n"
-"PO-Revision-Date: 2014-08-23 03:29+0500\n"
+"PO-Revision-Date: 2014-08-23 07:51+0500\n"
 "Last-Translator: Afeefa <safarjal22@gmail.com>\n"
 "Language-Team: churchthemes.com\n"
 "Language: ur\n"
@@ -85,7 +85,7 @@ msgstr "نیۓ تبصرے %s"
 #: ../comments.php:83
 msgctxt "comment form"
 msgid "Add a Comment"
-msgstr "تبصرھ ڈالیے"
+msgstr "تبصرہ ڈالیے"
 
 #: ../comments.php:84
 #, php-format
@@ -453,7 +453,7 @@ msgstr "عنوان"
 #: ../framework/includes/classes/widget-archives.php:92
 msgctxt "archives widget title default"
 msgid "Archives"
-msgstr ""
+msgstr "محفوظ شدہ"
 
 #: ../framework/includes/classes/widget-archives.php:107
 msgctxt "archives widget"
@@ -2039,7 +2039,7 @@ msgstr "%s کے بیانات"
 
 #: ../loop-header.php:171
 msgid "Archives"
-msgstr ""
+msgstr "محفوظ شدہ"
 
 #: ../loop-header.php:177
 msgid "Not Found"

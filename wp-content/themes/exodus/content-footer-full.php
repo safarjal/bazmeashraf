@@ -28,13 +28,13 @@ elseif ( is_singular( 'ctc_sermon' ) ) {
 	// Series
 	/* translators: used between list items, there is a space after the comma */
 	if ( $list = get_the_term_list( $post->ID, 'ctc_sermon_series', '', __( ', ', 'exodus' ) ) ) {
-		$term_lists[] = '<div class="exodus-content-icon"><span class="' . exodus_icon_class( 'sermon-series', 'return' ) . '"></span>' . sprintf( __( 'سلسلہ: %s', 'exodus' ), $list ) . '</div>';
+		$term_lists[] = '<div class="exodus-content-icon"><span class="' . exodus_icon_class( 'sermon-series', 'return' ) . '"></span>' . sprintf( __( 'Series: %s', 'exodus' ), $list ) . '</div>';
 	}
 
 	// Sermon Tags
 	/* translators: used between list items, there is a space after the comma */
 	if ( $list = get_the_term_list( $post->ID, 'ctc_sermon_tag', '', __( ', ', 'exodus' ) ) ) {
-		$term_lists[] = '<div class="exodus-content-icon"><span class="' . exodus_icon_class( 'entry-tag', 'return' ) . '"></span>' . sprintf( __( 'ٹیگز: %s', 'exodus' ), $list ) . '</div>';
+		$term_lists[] = '<div class="exodus-content-icon"><span class="' . exodus_icon_class( 'entry-tag', 'return' ) . '"></span>' . sprintf( __( 'Tagged with %s', 'exodus' ), $list ) . '</div>';
 	}
 
 }

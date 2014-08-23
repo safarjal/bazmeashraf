@@ -45,7 +45,7 @@ elseif ( is_category() ) : ?>
 
 <?php elseif ( is_tag() ) : ?>
 
-	<h1 class="exodus-main-title"><?php exodus_title_paged( sprintf( __( "'%s' ٹیگ والے مخطوطات", 'exodus' ), single_tag_title( '', false ) ) ); ?></h1>
+	<h1 class="exodus-main-title"><?php exodus_title_paged( sprintf( __( "'%s' Tagged Posts", 'exodus' ), single_tag_title( '', false ) ) ); ?></h1>
 
 <?php
 
@@ -61,13 +61,13 @@ elseif ( is_tax() ) : ?>
 	$taxonomy = get_query_var( 'taxonomy' );
 	$taxonomy_titles = array(
 		/* translators: %s represents sermon topic */
-		'ctc_sermon_topic' 		=> _x( '%s کے مضمون پر بیانات', 'sermon topic', 'exodus' ),
+		'ctc_sermon_topic' 		=> _x( 'Sermons on %s', 'sermon topic', 'exodus' ),
 		/* translators: %s represents Bible book */
-		'ctc_sermon_book' 		=> _x( '%s کتاب پر بیان', 'sermon book', 'exodus' ),
+		'ctc_sermon_book' 		=> _x( 'Sermons on %s', 'sermon book', 'exodus' ),
 		/* translators: %s represents sermon speaker name */
-		'ctc_sermon_speaker' 	=> __( '%s کے بیانات', 'exodus' ),
+		'ctc_sermon_speaker' 	=> __( 'Sermons by %s', 'exodus' ),
 		/* translators: %s represents sermon tag term */
-		'ctc_sermon_tag' 		=> __( "'%s' ٹیگ والے بیانت", 'exodus' ),
+		'ctc_sermon_tag' 		=> __( "'%s' Tagged Sermons", 'exodus' ),
 	);
 	$taxonomy_title = isset( $taxonomy_titles[$taxonomy] ) ? $taxonomy_titles[$taxonomy] : '%s';
 
@@ -87,7 +87,7 @@ elseif ( is_tax() ) : ?>
 
 elseif ( is_author() ) : ?>
 
-	<h1 class="exodus-main-title"><?php echo exodus_title_paged( sprintf( __( "%s کی مخطوطات", 'exodus' ), get_the_author() ) ); ?></h1>
+	<h1 class="exodus-main-title"><?php echo exodus_title_paged( sprintf( __( "Posts by %s", 'exodus' ), get_the_author() ) ); ?></h1>
 
 	<?php
 	// loop-author.php shows bio below blog posts and at top of author archives
@@ -104,12 +104,12 @@ elseif ( is_author() ) : ?>
 
 <?php elseif ( is_search() ) : ?>
 
-	<h1 class="exodus-main-title"><?php exodus_title_paged( sprintf( __( "'%s' کا نتیجۂ بحث", 'exodus' ), get_search_query() ) ); ?></h1>
+	<h1 class="exodus-main-title"><?php exodus_title_paged( sprintf( __( "Search results for '%s'", 'exodus' ), get_search_query() ) ); ?></h1>
 
 	<div class="exodus-entry-content">
 		<?php
 		/* translators: %d is number of matches, %s is search term */
-		echo sprintf( _n( '%d نتیجہ ملا %s کا.', '%d نتیجے ملے %s کے .', $wp_query->found_posts, 'exodus' ), $wp_query->found_posts, '<i>' . get_search_query() . '</i>' );
+		echo sprintf( _n( 'There is %d match for %s.', 'There are %d matches for %s.', $wp_query->found_posts, 'exodus' ), $wp_query->found_posts, '<i>' . get_search_query() . '</i>' );
 		?>
 	</div>
 
@@ -136,9 +136,9 @@ elseif ( is_day() || is_month() || is_year() ) : ?>
 	$post_type = get_post_type();
 	$archive_titles = array(
 		/* translators: %s represents date */
-		'post'			=> __( '%s کے مخطوطات', 'exodus' ),
+		'post'			=> __( 'Posts from %s', 'exodus' ),
 		/* translators: %s represents date */
-		'ctc_sermon'	=> __( '%s کے بیانات', 'exodus' ),
+		'ctc_sermon'	=> __( 'Sermons from %s', 'exodus' ),
 	);
 	$archive_title = isset( $archive_titles[$post_type] ) ? $archive_titles[$post_type] : '%s';
 
@@ -168,16 +168,16 @@ elseif ( is_post_type_archive() ) : ?>
 
 elseif ( is_archive() ) : ?>
 
-	<h1 class="exodus-main-title"><?php exodus_title_paged( __( 'محفوظ شدہ', 'exodus' ) ); ?></h1>
+	<h1 class="exodus-main-title"><?php exodus_title_paged( __( 'Archives', 'exodus' ) ); ?></h1>
 
 <?php
 
 elseif ( is_404() ) : ?>
 
-	<h1 class="exodus-main-title"><?php _e( 'نہ ملا', 'exodus' ); ?></h1>
+	<h1 class="exodus-main-title"><?php _e( 'Not Found', 'exodus' ); ?></h1>
 
 	<div class="exodus-entry-content">
-		<?php _e( 'جس صفحے یا فایل پر آپنے جانے کی کوشش کی وہ نہ ملا', 'exodus' ); ?>
+		<?php _e( 'Sorry, the page or file you tried to access was not found.', 'exodus' ); ?>
 	</div>
 
 <?php endif; ?>
