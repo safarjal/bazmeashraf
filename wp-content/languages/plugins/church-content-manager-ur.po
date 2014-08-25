@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Church Theme Content\n"
 "POT-Creation-Date: 2014-05-16 14:54-0600\n"
-"PO-Revision-Date: 2014-08-23 03:05+0500\n"
+"PO-Revision-Date: 2014-08-24 12:29+0500\n"
 "Last-Translator: Afeefa <safarjal22@gmail.com>\n"
 "Language-Team: churchthemes.com\n"
 "Language: es_ES\n"
@@ -353,7 +353,7 @@ msgstr "ویڈیو اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:100
 msgid "Choose an Video File"
-msgstr "ویڈیو کی فایٔل اختیار کیجیے"
+msgstr "ویڈیو کی فائل اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:115
 msgid "Audio"
@@ -374,7 +374,7 @@ msgstr "رکارڈنگ اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:126
 msgid "Choose an Audio File"
-msgstr "رکارڈنگ کی فایٔل اختیار کیجیے"
+msgstr "رکارڈنگ کی فائل اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:141 ../includes/mime-types.php:74
 msgid "PDF"
@@ -392,7 +392,7 @@ msgstr "پی ڈی ایف اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:148
 msgid "Choose a PDF File"
-msgstr "پی ڈی ایف کی فایٔل اختیار کیجیے"
+msgstr "پی ڈی ایف کی فائل اختیار کیجیے"
 
 #: ../includes/admin/sermon-fields.php:232
 msgctxt "sermons"
@@ -447,11 +447,11 @@ msgstr "بیان"
 #: ../includes/post-types.php:32
 msgctxt "sermon"
 msgid "Add New"
-msgstr "نیا ڈایلیے"
+msgstr "نیا ڈالیے"
 
 #: ../includes/post-types.php:33
 msgid "Add Sermon"
-msgstr "بیان ڈایلیے"
+msgstr "بیان ڈالیے"
 
 #: ../includes/post-types.php:34
 msgid "Edit Sermon"
@@ -475,7 +475,7 @@ msgstr "بیانات میں ڈھونڈیے"
 
 #: ../includes/post-types.php:39
 msgid "No sermons found"
-msgstr "کویٔبیان نہ ملا"
+msgstr "کویٔ بیان نہ ملا"
 
 #: ../includes/post-types.php:40
 msgid "No sermons found in Trash"
@@ -514,7 +514,7 @@ msgstr "تمام مجالس"
 
 #: ../includes/post-types.php:86
 msgid "View Event"
-msgstr "مجلس دیکھیں"
+msgstr "مجلس دیکھیے"
 
 #: ../includes/post-types.php:87
 msgid "Search Events"
@@ -705,7 +705,7 @@ msgstr "کتابوں میں ڈھونڈیے"
 #: ../includes/taxonomies.php:80
 msgctxt "sermons"
 msgid "Popular Books"
-msgstr "پسندیدھ کتاب"
+msgstr "پسندیدہ کتاب"
 
 #: ../includes/taxonomies.php:81
 msgctxt "sermons"
@@ -735,7 +735,7 @@ msgstr "نیٔ کتاب"
 #: ../includes/taxonomies.php:88
 msgctxt "sermons"
 msgid "Separate books with commas"
-msgstr "کتابوں کو کومے سے علیحدہ کیجیے"
+msgstr "کتابوں کو کومہ سے علیحدہ کیجیے"
 
 #: ../includes/taxonomies.php:89
 msgctxt "sermons"
@@ -755,7 +755,7 @@ msgstr "کتابیں"
 #: ../includes/taxonomies.php:124
 msgctxt "taxonomy general name"
 msgid "Sermon Series"
-msgstr "بیانات کاے سلسلسے"
+msgstr "بیانات کے سلسلے"
 
 #: ../includes/taxonomies.php:125
 msgctxt "taxonomy singular name"
@@ -795,12 +795,12 @@ msgstr "سلسلہ ڈالیے"
 #: ../includes/taxonomies.php:134
 msgctxt "sermons"
 msgid "New Series"
-msgstr "نیا سلسلسہ"
+msgstr "نیا سلسلہ"
 
 #: ../includes/taxonomies.php:135
 msgctxt "sermons"
 msgid "Separate series with commas"
-msgstr "سلسلوں کو کومے سے علیحدہ کیجیے"
+msgstr "سلسلوں کو کومہ سے علیحدہ کیجیے"
 
 #: ../includes/taxonomies.php:136
 msgctxt "sermons"
@@ -840,7 +840,7 @@ msgstr "پسندیدہ مبلغین"
 #: ../includes/taxonomies.php:175
 msgctxt "sermons"
 msgid "All Speakers"
-msgstr "تمام بملغین"
+msgstr "تمام مبلغین"
 
 #: ../includes/taxonomies.php:178
 msgctxt "sermons"
@@ -865,7 +865,7 @@ msgstr "نیا مبلغ"
 #: ../includes/taxonomies.php:182
 msgctxt "sermons"
 msgid "Separate speakers with commas"
-msgstr "مبلغین کو کومے سے علیحدہ کیجیے"
+msgstr "مبلغین کو کومہ سے علیحدہ کیجیے"
 
 #: ../includes/taxonomies.php:183
 msgctxt "sermons"
@@ -895,7 +895,7 @@ msgstr "بیان کا ٹیگ"
 #: ../includes/taxonomies.php:220
 msgctxt "sermons"
 msgid "Search Tags"
-msgstr "ٹیگز میں ڈھونڈیں"
+msgstr "ٹیگز میں ڈھونڈیے"
 
 #: ../includes/taxonomies.php:221
 msgctxt "sermons"
@@ -930,7 +930,7 @@ msgstr "نیا ٹیگ"
 #: ../includes/taxonomies.php:229
 msgctxt "sermons"
 msgid "Separate tags with commas"
-msgstr "ٹیگز کو کومے کے زریعہ علیحدہ کیجیے"
+msgstr "ٹیگز کو کومہ سے علیحدہ کیجیے"
 
 #: ../includes/taxonomies.php:230
 msgctxt "sermons"
@@ -995,7 +995,7 @@ msgstr "نیا گروپ"
 #: ../includes/taxonomies.php:280
 msgctxt "people"
 msgid "Separate groups with commas"
-msgstr "گروپس کو کومے سی علیحدہ کیجیے"
+msgstr "گروپس کو کومہ سی علیحدہ کیجیے"
 
 #: ../includes/taxonomies.php:281
 msgctxt "people"
@@ -1010,4 +1010,4 @@ msgstr "کثیر الاستعمال گروپس میں سے اختیار کیجی
 #: ../includes/taxonomies.php:283
 msgctxt "people menu name"
 msgid "Groups"
-msgstr "کروپس"
+msgstr "گروپس"

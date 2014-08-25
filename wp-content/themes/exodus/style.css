@@ -259,7 +259,7 @@ sup {
 
 ul,
 ol { /* more comfortable margins */
-	margin-left: 40px;
+	margin-right: 40px;
 }
 
 	ul ul,
@@ -275,7 +275,7 @@ ul { /* consistent bullets */
 }
 
 dl { /* definition list */
-	margin-left: 25px;
+	margin-right: 25px;
 }
 
 	dt {
@@ -347,18 +347,18 @@ q {
 	.exodus-entry-content caption {
 		margin-bottom: 20px;
 		font-style: italic;
-		text-align: left;
+		text-align: right;
 	}
 
 	.exodus-entry-content th {
-		padding: 0 10px 10px 0;
+		padding: 0 0 10px 10px;
 		text-align: right;
 	}
 
 	.exodus-entry-content td {
 		border-width: 1px 0 0 0;
 		border-style: solid;
-		padding: 10px 10px 10px 0;
+		padding: 10px 0 10px 10px;
 	}
 
 /* Horizontal Rule */
@@ -416,7 +416,7 @@ textarea {
 
 input[type=radio],
 input[type=checkbox] {
-	margin-right: 4px;
+	margin-left: 4px;
 }
 
 input[type=submit] {
@@ -526,7 +526,7 @@ input[type=submit] {
 		position: absolute;
 		bottom: 10%;
 		right: 6%; /* update padding-right at double or overflows */
-		padding-right: 12% !important; /* set to twice left */
+		padding-left: 12% !important; /* set to twice left */
 		max-width: 88%;
 	}
 
@@ -871,7 +871,7 @@ ul.page-numbers { /* WordPress-provided class; see .exodus-button class */
 
 	.exodus-author-avatar {
 		position: absolute;
-		left: 30px;
+		right: 30px;
 		top: 30px;
 		width: 100px;
 		height: 100px;
@@ -885,7 +885,7 @@ ul.page-numbers { /* WordPress-provided class; see .exodus-button class */
 	/* Bio */
 
 	.exodus-author-content {
-		margin-left: 130px;
+		margin-right: 130px;
 	}
 
 		.exodus-author-content p {
@@ -902,8 +902,8 @@ ul.page-numbers { /* WordPress-provided class; see .exodus-button class */
 		/* More posts link */
 
 		.exodus-author-box-archive {
-			float: right;
-			margin: 0 0 0 30px;
+			float: left;
+			margin: 0 30px 0 0;
 			font-size: 0.95em;
 		}
 
@@ -971,7 +971,7 @@ ul.page-numbers { /* WordPress-provided class; see .exodus-button class */
 	width: 0;
 	height: 0;
 	visibility: hidden;
-	left: 30000px;
+	right: 30000px;
 }
 
 /* Assistive Text - hide except from screen readers */
@@ -1145,11 +1145,11 @@ body {
 
 						#exodus-top-bar-menu-links li {
 							display: inline-block;
-							margin-right: 20px;
+							margin-left: 20px;
 						}
 
 						#exodus-top-bar-menu-links li:last-child {
-							margin-right: 0;
+							margin-left: 0;
 						}
 
 							#exodus-top-bar-menu-links a {
@@ -1169,7 +1169,7 @@ body {
 				}
 
 					.exodus-top-bar-right-item:first-child {
-						margin-left: 0;
+						margin-right: 0;
 					}
 
 					/* Date */
@@ -1256,7 +1256,7 @@ body {
 
 			#exodus-logo-text {
 				position: relative;
-				left: -2px;
+				right: -2px;
 				font-weight: bold;
 				line-height: 1.1em;
 			}
@@ -1404,7 +1404,7 @@ body {
 			}
 
 			.sf-menu {
-				float: left;
+				float: right;
 				margin-bottom: 1em;
 				line-height: 1;
 			}
@@ -1429,7 +1429,7 @@ body {
 				.sf-menu li:hover ul,
 				.sf-menu li.sfHover ul {
 					top: 38px; /* where submenu begins */
-					left: -139px;
+					right: -16px;
 					z-index: 12000;
 				}
 
@@ -1444,7 +1444,7 @@ body {
 				.sf-menu li li.sfHover ul,
 				.sf-menu li li li:hover ul,
 				.sf-menu li li li.sfHover ul {
-					left: 10em; /* match .sf-menu ul width below */
+					right: 10em; /* match .sf-menu ul width below */
 					top: 0;
 				}
 
@@ -1507,14 +1507,14 @@ body {
 				}
 
 				.sf-arrows .sf-with-ul a:after {
-					right: -17px;
+					left: -17px;
 					margin-top: -2px;
 				}
 
 				.sf-arrows ul .sf-with-ul:after { /* sub menu */
 					left: 10px;
 					margin-top: -5px;
-					margin-right: -3px;
+					margin-left: -3px;
 				}
 
 	/* Header Icons */
@@ -1655,7 +1655,7 @@ body {
 		.exodus-main-title span { /* lighter color for Page X) */
 			position: relative;
 			top: -2px;
-			padding-left: 10px;
+			padding-right: 10px;
 			font-size: 0.9em;
 			font-weight: normal;
 			white-space: nowrap;
@@ -1704,7 +1704,7 @@ body {
 			line-height: 1.4em;
 			margin: -25px;
 			margin-bottom: 25px; /* same as widget padding top */
-			padding: 10px 10px 10px 16px;
+			padding: 10px 16px 10px 10px;
 		}
 
 			/* Font Adjustments */
@@ -1830,7 +1830,7 @@ body {
 
 						#exodus-footer-top-buttons { /* <ul> */
 							list-style: none;
-							margin: 0 0 -22px -12px; /* padding-top + negative of margin-bottom in #exodus-footer-top-buttons li */
+							margin: 0 -12px -22px 0; /* padding-top + negative of margin-bottom in #exodus-footer-top-buttons li */
 							padding-top: 10px;
 						}
 
@@ -1838,7 +1838,7 @@ body {
 
 							#exodus-footer-top-buttons li {
 								display: inline-block;
-								margin: 0 0 12px 12px;
+								margin: 0 12px 12px 0;
 							}
 
 					/* There is no map - center info */
@@ -1927,7 +1927,7 @@ body {
 				#exodus-footer-menu-links { /* <ul> */
 					list-style: none;
 					position: relative;
-					left: -12px; /* offset item margin */
+					right: -12px; /* offset item margin */
 				}
 
 					/* Menu Items */
@@ -1947,7 +1947,7 @@ body {
 
 			#exodus-footer-bottom-right {
 				width: 49%;
-				float: right;
+				float: left;
 				text-align: left;
 			}
 
@@ -2098,7 +2098,7 @@ body {
 	.widget_pages ul ul,
 	.widget_links ul ul,
 	.widget_nav_menu ul ul {
-		margin-left: 15px;
+		margin-right: 15px;
 	}
 
 		.widget_categories li,
@@ -2166,13 +2166,13 @@ body {
 .widget_archive li,
 .widget_links li {
 	position: relative;
-	padding-right: 35px; /* make room for count so wrapping is nice */
+	padding-left: 35px; /* make room for count so wrapping is nice */
 }
 
 	.exodus-widget-link-count { /* class added and ( ) removed by JavaScript */
 		position: absolute;
 		top: 0;
-		right: 0;
+		left: 0;
 		font-size: 0.95em;
 	}
 
@@ -2375,10 +2375,10 @@ body {
 
 	#exodus-slider-inner {
 		position: absolute;
-		left: 50%;
+		right: 50%;
 		width: 1700px;
 		margin: 0 auto;
-		margin-left: -850px; /* half slide width */
+		margin-right: -850px; /* half slide width */
 	}
 
 		/* FlexSlider */
@@ -2646,22 +2646,22 @@ body {
 
 #ctcom-home-highlights {
 	width: 100%;
-	margin: 90px 0 90px -40px;
+	margin: 90px -40px 90px 0;
 	float: none;
 }
 
 	#ctcom-home-highlights-inner {
-		margin: -40px -40px 0 0;
+		margin: -40px 0 0 -40px;
 	}
 
 	#ctcom-home-highlights .exodus-highlight {
 		display: inline-block;
-		margin: 40px -40px 0 40px;
+		margin: 40px 40px 0 -40px;
 		width: 33.3%; /* three columns totals 100% */
 	}
 
 		#ctcom-home-highlights .exodus-highlight .exodus-caption-image-inner {
-			margin-right: 40px;
+			margin-left: 40px;
 		}
 
 		/* Bigger title on homepage */
@@ -2682,14 +2682,14 @@ body {
 	/* Left Column */
 
 	.exodus-home-bottom-widgets-both #exodus-home-bottom-widgets-left { /* make 50% only if both columns used */
-		float: left;
+		float: right;
 		width: 46%;
 	}
 
 	/* Right Column */
 
 	.exodus-home-bottom-widgets-both #exodus-home-bottom-widgets-right { /* make 50% only if both columns used */
-		float: right;
+		float: left;
 		width: 46%;
 	}
 
@@ -2745,7 +2745,7 @@ body {
 
 	.exodus-home-widget .exodus-widget-entry-meta > li {
 		display: block; /* one per line */
-		margin-right: 0;
+		margin-left: 0;
 	}
 
 /**********************************************
@@ -2820,7 +2820,7 @@ body {
 	/* Meta List */
 
 	.exodus-entry-meta { /* <ul> */
-		margin: 8px -30px 0 0; /* negative of li right margin; see overflow: hidden on .exodus-entry-header */
+		margin: 8px 0 0 -30px; /* negative of li right margin; see overflow: hidden on .exodus-entry-header */
 		list-style: none;
 	}
 
@@ -2828,7 +2828,7 @@ body {
 
 		.exodus-entry-meta > li {
 			display: inline-block;
-			margin: 16px 30px 0 0;
+			margin: 16px 0 0 30px;
 			vertical-align: top;
 			font-weight: bold;
 			line-height: 1.6em;
@@ -2960,7 +2960,7 @@ body {
 	/* Edit Link */
 
 	.exodus-entry-footer .post-edit-link {
-		float: right;
+		float: left;
 	}
 
 /************** SHORT / MULTIPLE **************/
@@ -3069,7 +3069,7 @@ body {
 	.gallery-item {
 		display: block;
 		position: relative;
-		float: left; /* fills vertical gaps in some browsers */
+		float: right; /* fills vertical gaps in some browsers */
 		margin: 0 7px 14px 7px;
 	}
 
@@ -3084,7 +3084,7 @@ body {
 			padding: 8px 12px;
 			font-size: 0.9em;
 			line-height: 1.4em;
-			text-align: left;
+			text-align: right;
 			cursor: pointer;
 			opacity: 0;
 			overflow: hidden;
@@ -3191,7 +3191,7 @@ body {
 	.gallery-columns-7 .gallery-item:nth-of-type(7n),
 	.gallery-columns-8 .gallery-item:nth-of-type(8n),
 	.gallery-columns-9 .gallery-item:nth-of-type(9n) {
-		margin-right: 0;
+		margin-left: 0;
 	}
 
 	/* Remove unnecesary breaks/clearing */
@@ -3203,7 +3203,7 @@ body {
 /* Single column gallery (wider spacing) */
 
 .gallery-columns-1 {
-	margin: 40px -11px 26px 0; /* 11px not 14px to prevent horizontal scroll on mobile */
+	margin: 40px 0 26px -11px; /* 11px not 14px to prevent horizontal scroll on mobile */
 }
 
 	.gallery-columns-1 .gallery-item {
@@ -3331,7 +3331,7 @@ body {
 		}
 
 		.exodus-comment.depth-1 { /* first level flush left */
-			margin-left: 0;
+			margin-right: 0;
 		}
 
 	/* Post author */
@@ -3366,7 +3366,7 @@ body {
 	#cancel-comment-reply-link { /* this is within #reply-title heading so here we give it regular font */
 		position: relative;
 		bottom: 4px;
-		margin-left: 25px;
+		margin-right: 25px;
 		font-size: 0.65em;
 		font-weight: normal;
 		text-transform: none;
@@ -3398,7 +3398,7 @@ body {
 		}
 
 		#respond .required {
-			margin-left: 5px;
+			margin-right: 5px;
 		}
 
 		#respond input[type=text] {
@@ -3410,7 +3410,7 @@ body {
 	/* Comment Field */
 
 	.comment-form-comment {
-		clear: left;
+		clear: right;
 		margin: 10px 0;
 	}
 
@@ -3494,7 +3494,7 @@ div.wpcf7-validation-errors {
 
 span.wpcf7-not-valid-tip {
 	top: 30%;
-	left: 30%;
+	right: 30%;
 	width: auto;
 	padding: 5px 0 0 0;
 	border: 0;
@@ -3529,7 +3529,7 @@ div.wpcf7-validation-errors {
 	width: 0;
 	height: 0;
 	top: 0;
-	left: 30000px;
+	right: 30000px;
 	overflow: hidden;
 }
 

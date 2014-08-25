@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Exodus\n"
 "POT-Creation-Date: 2014-06-04 18:03-0600\n"
-"PO-Revision-Date: 2014-08-23 07:51+0500\n"
+"PO-Revision-Date: 2014-08-24 12:18+0500\n"
 "Last-Translator: Afeefa <safarjal22@gmail.com>\n"
 "Language-Team: churchthemes.com\n"
 "Language: ur\n"
@@ -80,7 +80,7 @@ msgstr " %s پرانے تبصرے"
 #: ../comments.php:69
 #, php-format
 msgid "Newer Comments %s"
-msgstr "نیۓ تبصرے %s"
+msgstr "نئے تبصرے %s"
 
 #: ../comments.php:83
 msgctxt "comment form"
@@ -152,7 +152,7 @@ msgstr "%1$s بدلیے %2$s"
 
 #: ../content-footer-short.php:42
 msgid "Read"
-msgstr "پرھیے"
+msgstr "پڑھیے"
 
 #: ../content-footer-short.php:44
 msgctxt "sermon button"
@@ -211,11 +211,11 @@ msgstr "ہدایات حاصل کریں"
 
 #: ../content-sermon.php:130
 msgid "Show Video Player"
-msgstr "ویڈیو پلیئر دکھایٔں"
+msgstr "ویڈیو پلیئر دکھائں"
 
 #: ../content-sermon.php:139
 msgid "Show Audio Player"
-msgstr "آڈیو پلیئر دکھایٔں"
+msgstr "آڈیو پلیئر دکھائں"
 
 #: ../content-sermon.php:146
 msgid "Download Video"
@@ -254,11 +254,11 @@ msgstr "تمام مقامات"
 
 #: ../footer.php:213
 msgid "View Full Site"
-msgstr "مکمل ویب سایٔٹ دیکھیے"
+msgstr "مکمل ویب سائٹ دیکھیے"
 
 #: ../footer.php:217
 msgid "View Mobile Site"
-msgstr "موبایل کے لیے ویب سایٔٹ دیکھیے"
+msgstr "موبایل کے لیے ویب سائٹ دیکھیے"
 
 #: ../framework/includes/admin/admin-taxonomies.php:70
 #, php-format
@@ -270,7 +270,7 @@ msgstr ""
 #: ../framework/includes/admin/admin-widgets.php:33
 msgctxt "widget image library"
 msgid "Choose Image for Widget"
-msgstr "وزٹ کے لیے تصویر اختیار کیجیے"
+msgstr "وجٹ کے لیے تصویر اختیار کیجیے"
 
 #: ../framework/includes/admin/admin-widgets.php:34
 msgctxt "widget image library"
@@ -279,7 +279,7 @@ msgstr "وجٹ میں استعمال کیجیے"
 
 #: ../framework/includes/admin/admin-widgets.php:35
 msgid "Sorry, this widget is not made for use in this area. Please delete."
-msgstr "معذرت، یہ وجٹ اس جگہ کے لیے نہیں بنایا گیا۔ اس کو دلیٹ کر دیں۔"
+msgstr "معذرت، یہ وجٹ اس جگہ کے لیے نہیں بنایا گیا۔ اس کو ڈلیٹ کر دیں۔"
 
 #: ../framework/includes/admin/edd-license.php:73
 msgid "<strong>License key could not be activated.</strong>"
@@ -473,7 +473,7 @@ msgstr ""
 #: ../framework/includes/classes/widget-archives.php:162
 msgctxt "archives widget"
 msgid "Show counts"
-msgstr "تعداد دیکھایٔں"
+msgstr "تعداد دیکھائیے"
 
 #: ../framework/includes/classes/widget-archives.php:183
 msgctxt "archives widget"
@@ -553,7 +553,7 @@ msgstr ""
 #: ../framework/includes/classes/widget-categories.php:220
 msgctxt "categories widget"
 msgid "Show counts"
-msgstr "توداد دیکھایۓ"
+msgstr "تعداد دیکھائیے"
 
 #: ../framework/includes/classes/widget-categories.php:244
 msgctxt "categories widget"
@@ -614,22 +614,22 @@ msgstr ""
 #: ../framework/includes/classes/widget-locations.php:187
 msgctxt "events widget"
 msgid "Show image"
-msgstr "تصویر دیکھایۓ"
+msgstr "تصویر دیکھائیے"
 
 #: ../framework/includes/classes/widget-events.php:187
 msgctxt "events widget"
 msgid "Show date"
-msgstr "تاریخ دیکھایۓ"
+msgstr "تاریخ دیکھائیے"
 
 #: ../framework/includes/classes/widget-events.php:208
 msgctxt "events widget"
 msgid "Show time"
-msgstr "وقت دیکھایۓ"
+msgstr "وقت دیکھائیے"
 
 #: ../framework/includes/classes/widget-events.php:232
 msgctxt "events widget"
 msgid "Show excerpt"
-msgstr "اقتباس دیکھایۓ"
+msgstr "اقتباس دیکھائیے"
 
 #: ../framework/includes/classes/widget-galleries.php:34
 msgctxt "widget"
@@ -800,7 +800,7 @@ msgstr "پیغام"
 
 #: ../framework/includes/classes/widget-giving.php:114
 msgid "You may give online by clicking below."
-msgstr "آپ اس پر کلک کر کے آن لایٔن عطیہ دے سکتے ہیں۔"
+msgstr "آپ اس پر کلک کر کے آن لائن عطیہ دے سکتے ہیں۔"
 
 #: ../framework/includes/classes/widget-giving.php:129
 msgctxt "giving widget"
@@ -844,7 +844,7 @@ msgstr ""
 #: ../framework/includes/classes/widget-highlight.php:157
 msgctxt "highlight widget"
 msgid "Open in new tab"
-msgstr "نیۓ ٹیب میں کھولیۓ"
+msgstr "نئے ٹیب میں کھولیے"
 
 #: ../framework/includes/classes/widget-highlight.php:177
 msgctxt "highlight widget"
@@ -903,22 +903,22 @@ msgstr ""
 #: ../framework/includes/classes/widget-locations.php:211
 msgctxt "locations widget"
 msgid "Show address"
-msgstr "پتہ دیکھایۓ"
+msgstr "پتہ دیکھائیے"
 
 #: ../framework/includes/classes/widget-locations.php:235
 msgctxt "locations widget"
 msgid "Show phone number"
-msgstr "فون نمبر دیکھایۓ"
+msgstr "فون نمبر دیکھائیے"
 
 #: ../framework/includes/classes/widget-locations.php:259
 msgctxt "locations widget"
 msgid "Show times"
-msgstr "اوقات دیکھایٔے"
+msgstr "اوقات دیکھائیے"
 
 #: ../framework/includes/classes/widget-locations.php:283
 msgctxt "locations widget"
 msgid "Show map"
-msgstr "نقشہ دیکھایۓ"
+msgstr "نقشہ دیکھائۓ"
 
 #: ../framework/includes/classes/widget-people.php:32
 msgctxt "widget"
@@ -982,33 +982,33 @@ msgstr ""
 #: ../framework/includes/classes/widget-people.php:213
 msgctxt "people widget"
 msgid "Show photo"
-msgstr "تصویر دیکھایۓ"
+msgstr "تصویر دیکھائیے"
 
 #: ../framework/includes/classes/widget-people.php:237
 msgctxt "people widget"
 msgid "Show position"
-msgstr "جگہ دیکھایٔں"
+msgstr "جگہ دیکھائیے"
 
 #: ../framework/includes/classes/widget-people.php:261
 msgctxt "people widget"
 msgid "Show phone"
-msgstr "فون دیکھایۓ"
+msgstr "فون دیکھائیے"
 
 #: ../framework/includes/classes/widget-people.php:285
 msgctxt "people widget"
 msgid "Show email"
-msgstr "ای میل دیکھایۓ"
+msgstr "ای میل دیکھائیے"
 
 #: ../framework/includes/classes/widget-people.php:309
 msgctxt "people widget"
 msgid "Show icons"
-msgstr "آیٔکن دیکھایٔں"
+msgstr "آئکن دیکھائیے"
 
 #: ../framework/includes/classes/widget-people.php:333
 #: ../framework/includes/classes/widget-posts.php:288
 msgctxt "posts widget"
 msgid "Show excerpt"
-msgstr "اقتباس دیکھایۓ"
+msgstr "اقتباس دیکھائیے"
 
 #: ../framework/includes/classes/widget-posts.php:34
 msgctxt "widget"
@@ -1077,17 +1077,17 @@ msgstr ""
 #: ../framework/includes/classes/widget-posts.php:216
 msgctxt "posts widget"
 msgid "Show image"
-msgstr "رصویر دیکھایۓ"
+msgstr "تصویر دیکھائیے"
 
 #: ../framework/includes/classes/widget-posts.php:243
 msgctxt "posts widget"
 msgid "Show date"
-msgstr "تاریخ دیکھایۓ"
+msgstr "تاریخ دیکھائیے"
 
 #: ../framework/includes/classes/widget-posts.php:267
 msgctxt "posts widget"
 msgid "Show author"
-msgstr "مضنف دیکھایۓ"
+msgstr "مضنف دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:32
 msgctxt "widget"
@@ -1186,32 +1186,32 @@ msgstr ""
 #: ../framework/includes/classes/widget-sermons.php:292
 msgctxt "sermons widget"
 msgid "Show image"
-msgstr "تصویر دیکھایۓ"
+msgstr "تصویر دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:319
 msgctxt "sermons widget"
 msgid "Show date"
-msgstr "تاریخ دیکھایۓ"
+msgstr "تاریخ دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:343
 msgctxt "sermons widget"
 msgid "Show topic"
-msgstr "موضوع دیکھایۓ"
+msgstr "موضوع دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:367
 msgctxt "sermons widget"
 msgid "Show book"
-msgstr "کتاب دیکھایۓ"
+msgstr "کتاب دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:391
 msgctxt "sermons widget"
 msgid "Show series"
-msgstr "سلسلہ دیکھایۓ"
+msgstr "سلسلہ دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:415
 msgctxt "sermons widget"
 msgid "Show speaker"
-msgstr "مبلغ کا نام دیکھایۓ"
+msgstr "مبلغ کا نام دیکھائیے"
 
 #: ../framework/includes/classes/widget-sermons.php:436
 msgctxt "sermons widget"
@@ -1221,7 +1221,7 @@ msgstr ""
 #: ../framework/includes/classes/widget-sermons.php:460
 msgctxt "sermons widget"
 msgid "Show excerpt"
-msgstr "اقتباس دیکھایۓ"
+msgstr "اقتباس دیکھائیے"
 
 #: ../framework/includes/classes/widget-slide.php:33
 msgctxt "widget"
@@ -1250,7 +1250,7 @@ msgstr ""
 #: ../framework/includes/classes/widget-slide.php:157
 msgctxt "slide widget"
 msgid "Open in new tab"
-msgstr "نیۓ ٹیب میں کھولیے"
+msgstr "نئے ٹیب میں کھولیے"
 
 #: ../framework/includes/classes/widget-slide.php:177
 msgctxt "slide widget"
@@ -1281,7 +1281,7 @@ msgstr ""
 
 #: ../framework/includes/compatibility.php:126
 msgid "Go back."
-msgstr "واپس جایۓ"
+msgstr "واپس جائیے"
 
 #: ../framework/includes/compatibility.php:215
 #, php-format
@@ -1378,7 +1378,7 @@ msgstr ""
 
 #: ../includes/admin/meta-boxes.php:74
 msgid "Do not show text over featured image"
-msgstr "اس تصویر کے اوپر لکھایٔی نہ دیکھایٔں"
+msgstr "اس تصویر کے اوپر لکھائی نہ دیکھائیے"
 
 #: ../includes/admin/meta-boxes.php:95
 msgid ""
@@ -1437,22 +1437,22 @@ msgstr ""
 
 #: ../includes/customize.php:34
 msgid "Don't move"
-msgstr "نہ ہلایۓ"
+msgstr "نہ ہلائیے"
 
 #: ../includes/customize.php:37
 #, php-format
 msgid "%d pixels right"
-msgstr "%d پکسل دایٔں جانب کی صرف"
+msgstr "%d پکسل دائیں جانب کی صرف"
 
 #: ../includes/customize.php:38
 #, php-format
 msgid "%d pixels left"
-msgstr "%d پکسل بایٔں جانب کی طرف"
+msgstr "%d پکسل بائیں جانب کی طرف"
 
 #: ../includes/customize.php:54
 msgctxt "customizer"
 msgid "Upcoming Events"
-msgstr "آیٔندہ مجالس"
+msgstr "آئندہ مجالس"
 
 #: ../includes/customize.php:55
 msgctxt "customizer"
@@ -1467,7 +1467,7 @@ msgstr "تازہ پوسٹ"
 #: ../includes/customize.php:57 ../includes/customize.php:129
 msgctxt "customizer"
 msgid "Tagline"
-msgstr "ٹیگ لایٔن"
+msgstr "ٹیگ لائن"
 
 #: ../includes/customize.php:58 ../includes/customize.php:130
 msgctxt "customizer"
@@ -1580,7 +1580,7 @@ msgstr ""
 
 #: ../includes/customize.php:376
 msgid "Search Icon"
-msgstr "ڈھونڈنے کا آیٔکن"
+msgstr "ڈھونڈنے کا آئکن"
 
 #: ../includes/customize.php:391
 msgctxt "customizer"
@@ -1618,7 +1618,7 @@ msgstr ""
 
 #: ../includes/customize.php:494
 msgid "Move Logo"
-msgstr "لوگو ہلایٔں"
+msgstr "لوگو ہلائیے"
 
 #: ../includes/customize.php:510
 msgid "Logo Text"
@@ -1635,16 +1635,16 @@ msgstr "لوگو کے متن کا سائز"
 
 #: ../includes/customize.php:563
 msgid "Show tagline under logo"
-msgstr "لوگو کے نیچے ٹیگ لایٔن دیکھایۓ"
+msgstr "لوگو کے نیچے ٹیگ لائن دیکھائیے"
 
 #: ../includes/customize.php:580
 msgid "Move Tagline"
-msgstr "ٹیگ لایٔن کو ہلایۓ"
+msgstr "ٹیگ لائن کو ہلائیے"
 
 #: ../includes/customize.php:596
 msgctxt "customizer"
 msgid "Right of Logo"
-msgstr "لوگو کی دایٔں جانب"
+msgstr "لوگو کی دائیں جانب"
 
 #: ../includes/customize.php:622
 msgctxt "customizer"
@@ -1654,7 +1654,7 @@ msgstr ""
 #: ../includes/customize.php:636
 msgctxt "customizer"
 msgid "Show Location"
-msgstr "مقام دیکھایۓ"
+msgstr "مقام دیکھائیے"
 
 #: ../includes/customize.php:651
 msgctxt "customizer"
@@ -1774,7 +1774,7 @@ msgstr ""
 
 #: ../includes/sidebars.php:56
 msgid "These show at the bottom-left of the homepage."
-msgstr "یہ ہوم پیج کے نچلے بایٔں کونے میں نظر آتے ہین۔"
+msgstr "یہ ہوم پیج کے نچلے بائیں کونے میں نظر آتے ہین۔"
 
 #: ../includes/sidebars.php:66
 msgctxt "widget area"
@@ -1783,11 +1783,11 @@ msgstr ""
 
 #: ../includes/sidebars.php:67
 msgid "These show at the bottom-right of the homepage."
-msgstr "یہ ہوم پیج کے نچلے دایٔں کونے میں نظر آتے ہیں۔"
+msgstr "یہ ہوم پیج کے نچلے دائیں کونے میں نظر آتے ہیں۔"
 
 #: ../includes/sidebars.php:77
 msgid "Page Sidebar"
-msgstr ""
+msgstr "صفحہ سایٔڈ بار"
 
 #: ../includes/sidebars.php:79
 msgid "These widgets show on the side of pages using the default template."
@@ -1795,7 +1795,7 @@ msgstr "یہ وجٹ ان صفحات کی جانب پر نظر آتے ہیں جو
 
 #: ../includes/sidebars.php:91
 msgid "Sermons Sidebar"
-msgstr ""
+msgstr "بیانات سائڈ بار"
 
 #: ../includes/sidebars.php:92
 msgid "These widgets show on the side of sermon pages."
@@ -1803,7 +1803,7 @@ msgstr "یہ وجٹ بیانات کے صفحے کی جانب پر نظر آتے 
 
 #: ../includes/sidebars.php:102
 msgid "Events Sidebar"
-msgstr ""
+msgstr "مجالس سائڈ بار"
 
 #: ../includes/sidebars.php:103
 msgid "These widgets show on the side of event pages."
@@ -1811,7 +1811,7 @@ msgstr "یہ وجٹ مجالس کے صفحے کی جانب پر نظر آتے ہ
 
 #: ../includes/sidebars.php:113
 msgid "People Sidebar"
-msgstr ""
+msgstr "لوگ سائڈ بار"
 
 #: ../includes/sidebars.php:114
 msgid "These widgets show on the side of people pages."
@@ -1819,7 +1819,7 @@ msgstr "یہ وجٹ لوگوں کے صفحے کی جانب پر نظر آتے ہ
 
 #: ../includes/sidebars.php:124
 msgid "Locations Sidebar"
-msgstr ""
+msgstr "مقامات سائڈ بار"
 
 #: ../includes/sidebars.php:125
 msgid "These widgets show on the side of locations content."
@@ -1827,7 +1827,7 @@ msgstr "یہ وجٹ مقامات کے صفحے کی جانب پر نظر آتے 
 
 #: ../includes/sidebars.php:135
 msgid "Gallery Sidebar"
-msgstr ""
+msgstr "گیلری سائڈ بار"
 
 #: ../includes/sidebars.php:136
 msgid "These widgets show on the side of gallery pages."
@@ -1835,32 +1835,32 @@ msgstr "یہ وجٹ گیلری کے صفحے کی جانب پر نظر آتے ہ
 
 #: ../includes/sidebars.php:146
 msgid "Blog Sidebar"
-msgstr ""
+msgstr "بلاگ سائڈ بار"
 
 #: ../includes/sidebars.php:147
 msgid "These widgets show on the side of blog content."
-msgstr "یہ وجٹ بلاگ کے مواد کے کنارے پر نظر آتے ہیں۔"
+msgstr "یہ وجٹ بلاگ کے مواد کے جانب پر نظر آتے ہیں۔"
 
 #: ../includes/sidebars.php:157
 msgid "Contact Sidebar"
-msgstr ""
+msgstr "رابطہ سائڈ بار"
 
 #: ../includes/sidebars.php:158
 msgid "These widgets show on the side of the contact page."
-msgstr "یہ وجٹ رابطے کے صفحے کے کنارے پر نظر آتے ہیں۔"
+msgstr "یہ وجٹ رابطے کے صفحے کے جانب پر نظر آتے ہیں۔"
 
 #: ../includes/sidebars.php:168
 msgid "Search Sidebar"
-msgstr ""
+msgstr "ڈھونڈنا سائڈ بار"
 
 #: ../includes/sidebars.php:169
 msgid "These widgets show on the side of search results."
-msgstr "یہ وجٹ نتایٔج بحث کے کنارے پر نظر آتے ہیں۔"
+msgstr "یہ وجٹ نتائج بحث کے کنارے پر نظر آتے ہیں۔"
 
 #: ../includes/support-ctc.php:108
 #, php-format
 msgid "Enter one URL per line for %s."
-msgstr ""
+msgstr "%s کے لیے ہر سطر میں ایک یو آر ایل لکھیں۔"
 
 #: ../includes/support-ctc.php:111
 #, php-format
@@ -1924,6 +1924,8 @@ msgid ""
 "Optionally provide an image that is at least %s (it will be cropped/"
 "resized). An image exactly this size is ideal."
 msgstr ""
+"آپ کو اختیار ہے کہ آپ ایک تصویر دیں جو کم از کم %sاس سائز کی تصویر بہترین "
+"ہے۔ کی ہو (اس کو چھوٹ/بڑاا کر دیا جائے گا)۔ بالکل"
 
 #: ../includes/support-framework.php:413
 msgctxt "archives widget"
@@ -1938,7 +1940,7 @@ msgstr "(ضروری ہے)"
 #: ../includes/support-framework.php:443 ../includes/support-framework.php:462
 #, php-format
 msgid "Image cropped to %s."
-msgstr ""
+msgstr "تصویر کو %s جتنا چھوٹا کیا گیا ہے۔"
 
 #: ../includes/support-framework.php:446
 msgid ""
@@ -2014,8 +2016,8 @@ msgstr "'%s' کے نتائج بحث"
 #, php-format
 msgid "There is %d match for %s."
 msgid_plural "There are %d matches for %s."
-msgstr[0] ""
-msgstr[1] "%s کے %d نتیجے ہں۔"
+msgstr[0] "%d نتیجہ ہے %s کا."
+msgstr[1] "%d نتایٔج ہیں %s کے."
 
 #: ../loop-header.php:130
 msgctxt "monthly archives date format"
@@ -2047,7 +2049,7 @@ msgstr "نہ ملا"
 
 #: ../loop-header.php:180
 msgid "Sorry, the page or file you tried to access was not found."
-msgstr "معزرت, آپ نے جس صفحہ یا فایل پر جانے کی کوشش کی وہ نہ ملی۔"
+msgstr "معزرت, آپ نے جس صفحہ یا فائل پر جانے کی کوشش کی وہ نہ ملی۔"
 
 #: ../loop-navigation.php:27
 #, php-format
@@ -2155,22 +2157,22 @@ msgstr "%s کا"
 #: ../widget-templates/widget-sermons.php:110
 msgctxt "sermons widget"
 msgid "Read Online"
-msgstr "آن لایٔن پڑھیں"
+msgstr "آن لائٔن پڑھیے"
 
 #: ../widget-templates/widget-sermons.php:114
 msgctxt "sermons widget"
 msgid "Watch Video"
-msgstr "ویڈیو دیکھیں"
+msgstr "ویڈیو دیکھیے"
 
 #: ../widget-templates/widget-sermons.php:118
 msgctxt "sermons widget"
 msgid "Listen to Audio"
-msgstr "رکارڈنگ سنیں"
+msgstr "رکارڈنگ سنیے"
 
 #: ../widget-templates/widget-sermons.php:122
 msgctxt "sermons widget"
 msgid "Download PDF"
-msgstr "پی ڈی ایف ڈاؤن لوڈ کریں"
+msgstr "پی ڈی ایف ڈاؤن لوڈ کریے"
 
 #: ../widget-templates/widget-sermons.php:153
 msgctxt "sermons widget"
